@@ -1,0 +1,16 @@
+{
+	"id": "acid_magic_acid_pool",
+	"name": "Acid Pool",
+	"requirements": {
+		"milestones": [],
+		"skill": 11
+	},
+	"rewards": [
+		{
+			"ability": "acid_magic_acid_pool"
+		}
+	],
+	"skill_id": "arendeth_acid_magic",
+	"steps": [],
+	"steps_type": 0
+}

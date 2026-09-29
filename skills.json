@@ -1,0 +1,82 @@
+[
+	{
+		"id": "arendeth_acid_magic",
+		"name": "Acid Magic",
+		"image": 0,
+		"description": "Acid Magic is a chemistry‑driven offensive school focused on corrosion, dissolution, and reactive detonation. Its spells apply corrosive wounds that stack up to high levels, steadily stripping armor and resistances. As corrosion builds, Acid Magic’s higher‑tier abilities escalate the reaction, applying vulnerability and amplifying damage taken.Once enough corrosive strain has accumulated, Acid Magic can trigger a Runaway Reaction, consuming all corrosion stacks in a violent chemical burst that deals true damage per stack and may erupt into a small acid explosion if enough stacks were present. This gives Acid Magic a distinctive rhythm: weaken, dissolve, and detonate.Acid Magic also includes Neutralize, a utility technique that removes poison effects and inflicts minor true damage, giving the school a unique defensive tool against toxin‑based enemies.Acid Magic is ideal for players who enjoy methodical buildup, armor shredding, and high‑impact finishers. It excels in duels, boss fights, and any encounter where corrosion can be stacked to dangerous levels.",
+		"combat_skill": true,
+		"exp_sources": [
+			{
+				"id": "ability",
+				"rate": 2
+			}
+		],
+		"stat_points": [
+			11,
+			12,
+			13,
+			14,
+			15,
+			16,
+			17,
+			18,
+			19,
+			20,
+			21,
+			22,
+			23,
+			24,
+			25,
+			26,
+			27,
+			28,
+			29,
+			30,
+			31,
+			32,
+			33,
+			34,
+			35,
+			36,
+			37,
+			38,
+			39,
+			40,
+			41,
+			42,
+			43,
+			44,
+			45,
+			46,
+			47,
+			48,
+			49,
+			50
+		],
+		"difficulty": 2,
+		"starting_gear": [
+			{
+				"first": {
+					"id": "835",
+					"amount": 8
+				}
+			},
+			{
+				"first": {
+					"id": "core_2_Fancy_Flask",
+					"amount": 1
+				}
+			},
+			{
+				"first": {
+					"id": "94",
+					"amount": 1
+				},
+				"second": {
+					"id": "776",
+					"amount": 1
+				}
+			}
+		]
+	}
+]

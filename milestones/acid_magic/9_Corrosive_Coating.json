@@ -1,0 +1,16 @@
+{
+	"id": "acid_magic_corrosive_coating",
+	"name": "Corrosive Coating",
+	"requirements": {
+		"milestones": [],
+		"skill": 9
+	},
+	"rewards": [
+		{
+			"amplifier": "acid_magic_corrosive_coating"
+		}
+	],
+	"skill_id": "arendeth_acid_magic",
+	"steps": [],
+	"steps_type": 0
+}

@@ -1,0 +1,95 @@
+{
+	"components": [
+		"block_light",
+		"damage_applier",
+		"glyph",
+		"minimap_pixel",
+		"name",
+		"position_2d"
+	],
+	"damage_applier": {
+		"break_on_entry": false,
+		"dmg_animation": "34",
+		"dmg_max": 8,
+		"dmg_min": 4,
+		"dmg_type": "acid",
+		"duration": 4.0,
+		"tick": 1.0
+	},
+	"description": "A bubbling pool of caustic vitriol. Deals acid damage each turn it is stood in.",
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					56,
+					134,
+					98
+				],
+				"delay": 150,
+				"index": 3292
+			},
+			{
+				"color": [
+					56,
+					134,
+					98
+				],
+				"delay": 130,
+				"index": 3293
+			},
+			{
+				"color": [
+					56,
+					134,
+					98
+				],
+				"delay": 100,
+				"index": 3294
+			},
+			{
+				"color": [
+					56,
+					134,
+					98
+				],
+				"delay": 100,
+				"index": 3295
+			},
+			{
+				"color": [
+					56,
+					134,
+					98
+				],
+				"delay": 150,
+				"index": 3296
+			},
+			{
+				"color": [
+					56,
+					134,
+					98
+				],
+				"delay": 100,
+				"index": 3297
+			},
+			{
+				"color": [
+					56,
+					134,
+					98
+				],
+				"delay": 100,
+				"index": 3298
+			}
+		],
+		"random_frame_start": true
+	},
+	"id": "acid_magic_acid_puddle",
+	"minimap_pixel": [
+		16,
+		61,
+		28
+	],
+	"name": "Acid Puddle"
+}

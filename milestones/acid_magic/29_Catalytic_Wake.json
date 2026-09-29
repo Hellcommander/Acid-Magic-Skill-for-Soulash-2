@@ -1,0 +1,16 @@
+{
+	"id": "acid_magic_catalytic_wake",
+	"name": "Catalytic Wake",
+	"requirements": {
+		"milestones": [],
+		"skill": 29
+	},
+	"rewards": [
+		{
+			"passive": "acid_magic_catalytic_wake"
+		}
+	],
+	"skill_id": "arendeth_acid_magic",
+	"steps": [],
+	"steps_type": 0
+}

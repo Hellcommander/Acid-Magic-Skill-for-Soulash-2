@@ -1,0 +1,32 @@
+{
+	"animation": "acid_magic_neutralize_fx",
+	"cast_time": 0.6000000238418579,
+	"cooldown": 10.0,
+	"cost": {
+		"health": 0,
+		"stamina": 7
+	},
+	"description": "Removes the target’s poison_effect stacks, clearing them and dealing 1 true damage. Acid plus base. Neutralizes poison from a target.",
+	"duration": 0.0,
+	"effects": {
+		"damage": [
+			1,
+			1
+		],
+		"damage_type": "true",
+		"magic_power_damage": 0.2,
+		"neutralize": [
+			"poison_effect"
+		]
+	},
+	"id": "acid_magic_neutralize",
+	"image": 7,
+	"name": "Neutralize",
+	"range": 4,
+	"skill": "arendeth_acid_magic",
+	"slots": {
+		"offensive": 1,
+		"utility": 1
+	},
+	"target": "health"
+}

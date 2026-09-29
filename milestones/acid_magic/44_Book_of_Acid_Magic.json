@@ -1,0 +1,16 @@
+{
+	"id": "acid_magic_book_of_acid_magic",
+	"name": "Book of Acid Magic",
+	"requirements": {
+		"milestones": [],
+		"skill": 44
+	},
+	"rewards": [
+		{
+			"recipe": "acid_magic_book_of_acid_magic"
+		}
+	],
+	"skill_id": "arendeth_acid_magic",
+	"steps": [],
+	"steps_type": 0
+}

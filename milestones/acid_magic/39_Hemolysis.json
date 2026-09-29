@@ -1,0 +1,16 @@
+{
+	"id": "acid_magic_hemolysis",
+	"name": "Hemolysis",
+	"requirements": {
+		"milestones": [],
+		"skill": 39
+	},
+	"rewards": [
+		{
+			"ability": "acid_magic_hemolysis"
+		}
+	],
+	"skill_id": "arendeth_acid_magic",
+	"steps": [],
+	"steps_type": 0
+}

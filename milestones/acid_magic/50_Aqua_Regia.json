@@ -1,0 +1,16 @@
+{
+	"id": "acid_magic_aqua_regia",
+	"name": "Aqua Regia",
+	"requirements": {
+		"milestones": [],
+		"skill": 50
+	},
+	"rewards": [
+		{
+			"amplifier": "acid_magic_aqua_regia"
+		}
+	],
+	"skill_id": "arendeth_acid_magic",
+	"steps": [],
+	"steps_type": 0
+}

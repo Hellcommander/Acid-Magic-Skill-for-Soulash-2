@@ -1,0 +1,16 @@
+{
+	"id": "acid_magic_total_dissolution",
+	"name": "Total Dissolution",
+	"requirements": {
+		"milestones": [],
+		"skill": 50
+	},
+	"rewards": [
+		{
+			"ability": "acid_magic_total_dissolution"
+		}
+	],
+	"skill_id": "arendeth_acid_magic",
+	"steps": [],
+	"steps_type": 0
+}

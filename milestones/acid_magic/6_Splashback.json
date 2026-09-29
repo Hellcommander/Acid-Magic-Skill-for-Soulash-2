@@ -1,0 +1,16 @@
+{
+	"id": "acid_magic_splashback",
+	"name": "Splashback",
+	"requirements": {
+		"milestones": [],
+		"skill": 6
+	},
+	"rewards": [
+		{
+			"amplifier": "acid_magic_splashback"
+		}
+	],
+	"skill_id": "arendeth_acid_magic",
+	"steps": [],
+	"steps_type": 0
+}

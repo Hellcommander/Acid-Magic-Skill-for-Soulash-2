@@ -1,0 +1,16 @@
+{
+	"id": "acid_magic_vitriol_step",
+	"name": "Vitriol Step",
+	"requirements": {
+		"milestones": [],
+		"skill": 13
+	},
+	"rewards": [
+		{
+			"ability": "acid_magic_vitriol_step"
+		}
+	],
+	"skill_id": "arendeth_acid_magic",
+	"steps": [],
+	"steps_type": 0
+}

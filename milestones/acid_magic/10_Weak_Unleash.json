@@ -1,0 +1,16 @@
+{
+	"id": "acid_magic_weak_unleash",
+	"name": "Weak Unleash",
+	"requirements": {
+		"milestones": [],
+		"skill": 10
+	},
+	"rewards": [
+		{
+			"amplifier": "acid_magic_weak_unleash"
+		}
+	],
+	"skill_id": "arendeth_acid_magic",
+	"steps": [],
+	"steps_type": 0
+}

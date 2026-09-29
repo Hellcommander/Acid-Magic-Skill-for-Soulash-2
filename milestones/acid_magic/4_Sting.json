@@ -1,0 +1,16 @@
+{
+	"id": "acid_magic_sting",
+	"name": "Sting",
+	"requirements": {
+		"milestones": [],
+		"skill": 4
+	},
+	"rewards": [
+		{
+			"amplifier": "acid_magic_sting"
+		}
+	],
+	"skill_id": "arendeth_acid_magic",
+	"steps": [],
+	"steps_type": 0
+}

@@ -1,0 +1,16 @@
+{
+	"id": "acid_magic_catalyst_amp",
+	"name": "Catalyst Amp",
+	"requirements": {
+		"milestones": [],
+		"skill": 28
+	},
+	"rewards": [
+		{
+			"amplifier": "acid_magic_catalyst_amp"
+		}
+	],
+	"skill_id": "arendeth_acid_magic",
+	"steps": [],
+	"steps_type": 0
+}

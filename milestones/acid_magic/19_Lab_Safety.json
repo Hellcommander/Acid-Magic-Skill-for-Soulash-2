@@ -1,0 +1,16 @@
+{
+	"id": "acid_magic_lab_safety",
+	"name": "Lab Safety",
+	"requirements": {
+		"milestones": [],
+		"skill": 19
+	},
+	"rewards": [
+		{
+			"passive": "acid_magic_lab_safety"
+		}
+	],
+	"skill_id": "arendeth_acid_magic",
+	"steps": [],
+	"steps_type": 0
+}

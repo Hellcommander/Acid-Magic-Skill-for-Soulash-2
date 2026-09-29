@@ -1,0 +1,16 @@
+{
+	"id": "acid_magic_corrosive_primer",
+	"name": "Corrosive Primer",
+	"requirements": {
+		"milestones": [],
+		"skill": 14
+	},
+	"rewards": [
+		{
+			"passive": "acid_magic_corrosive_primer"
+		}
+	],
+	"skill_id": "arendeth_acid_magic",
+	"steps": [],
+	"steps_type": 0
+}

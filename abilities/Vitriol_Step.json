@@ -1,0 +1,26 @@
+{
+    "id": "acid_magic_vitriol_step",
+    "name": "Vitriol Step",
+    "description": "Dash through caustic fumes toward a tile within range, gaining brief resistance.",
+    "target": "tile",
+    "range": 6,
+    "effects": {
+        "ignore_party": 1,
+        "lunge": 4,
+        "resistance": 20
+    },
+    "animation": "acid_magic_vitriol_step_fx",
+    "cost": {
+        "health": 0,
+        "stamina": 6
+    },
+    "cast_time": 0.3,
+    "cooldown": 8.0,
+    "skill": "arendeth_acid_magic",
+    "slots": {
+        "offensive": 1,
+        "utility": 1
+    },
+    "duration": 1.0,
+    "image": 5
+}

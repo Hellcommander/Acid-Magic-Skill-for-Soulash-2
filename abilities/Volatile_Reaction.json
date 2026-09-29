@@ -1,0 +1,33 @@
+{
+    "id": "acid_magic_volatile_reaction",
+    "name": "Volatile Reaction",
+    "description": "Mix reagents and detonate. Deals acid damage in an area and applies Corrosion.",
+    "target": "aoe_target",
+    "range": 6,
+    "effects": {
+        "damage": [8, 14],
+        "damage_type": "acid",
+        "magic_power_damage": 1.0,
+        "stacker_count": 1,
+        "vulnerable": 1,
+        "aoe_range": 2,
+        "aoe_shape": 1
+    },
+    "effects_keys": {
+        "stacker": "arendeth_acid_magic_Corrosion"
+    },
+    "cost": {
+        "health": 0,
+        "stamina": 11
+    },
+    "cast_time": 0.8,
+    "cooldown": 12.0,
+    "skill": "arendeth_acid_magic",
+    "slots": {
+        "offensive": 1,
+        "utility": 1
+    },
+    "duration": 0.0,
+    "animation": "acid_magic_volatile_reaction_fx",
+    "image": 0
+}

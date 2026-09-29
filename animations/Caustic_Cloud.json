@@ -1,0 +1,122 @@
+{
+	"animation_origin_self": false,
+	"camera_shake": {
+		"bounces": 0,
+		"duration": 0.0,
+		"power": 0.0
+	},
+	"chain_particles": true,
+	"id": "acid_magic_caustic_cloud_fx",
+	"ignore_roof": false,
+	"name": "Caustic Cloud",
+	"particles": [
+		{
+			"color": [
+				[
+					80,
+					180,
+					60,
+					255
+				]
+			],
+			"flags": 1,
+			"life": 50.0,
+			"tile_id": 1120
+		},
+		{
+			"color": [
+				[
+					80,
+					180,
+					60,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1121
+		},
+		{
+			"color": [
+				[
+					80,
+					180,
+					60,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1122
+		},
+		{
+			"color": [
+				[
+					80,
+					180,
+					60,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1123
+		},
+		{
+			"color": [
+				[
+					80,
+					180,
+					60,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1124
+		},
+		{
+			"color": [
+				[
+					80,
+					180,
+					60,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1125
+		},
+		{
+			"color": [
+				[
+					80,
+					180,
+					60,
+					255
+				]
+			],
+			"flags": 0,
+			"life": 50.0,
+			"tile_id": 1126
+		},
+		{
+			"color": [
+				[
+					80,
+					180,
+					60,
+					255
+				]
+			],
+			"flags": 8,
+			"life": 100.0,
+			"tile_id": 1127
+		}
+	],
+	"sound": {
+		"id": "127",
+		"volume": 100
+	}
+}

@@ -1,0 +1,284 @@
+[
+	{
+		"id": "acid_magic_corrosive_coating",
+		"name": "Corrosive Coating",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "stacker",
+				"value": "arendeth_acid_magic_Corrosion",
+				"secondary_value": 1
+			}
+		],
+		"image": 0,
+		"description": "Apply 1 extra Corrosion stack."
+	},
+	{
+		"id": "acid_magic_fuming_mixture",
+		"name": "Fuming Mixture",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "poison_effect",
+				"value": 2
+			}
+		],
+		"image": 1,
+		"description": "Add poison exposure to the acid hit."
+	},
+	{
+		"id": "acid_magic_unleash_catalysis",
+		"name": "Unleash Catalysis",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "damage_per_stacks",
+				"value": 2
+			}
+		],
+		"image": 2,
+		"description": "Deal 2 extra damage per Catalysis stack on the caster."
+	},
+	{
+		"id": "acid_magic_catalyst_amp",
+		"name": "Catalyst Amp",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "turn_damage_to_stacks",
+				"value": "arendeth_acid_magic_Corrosion",
+				"secondary_value": 0.5
+			}
+		],
+		"image": 3,
+		"description": "Turn half the hit into Corrosion stacks."
+	},
+	{
+		"id": "acid_magic_volatile_catalyst",
+		"name": "Volatile Catalyst",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "effect_per_stack",
+				"value": "arendeth_acid_magic_Corrosion",
+				"secondary_value": "knockback",
+				"third_value": 0.25
+			}
+		],
+		"image": 4,
+		"description": "Knock back 0.25 tiles per Corrosion stack and consume those stacks."
+	},
+	{
+		"id": "acid_magic_runaway_reaction",
+		"name": "Runaway Reaction",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "effect_per_stack",
+				"value": "arendeth_acid_magic_Corrosion",
+				"secondary_value": "vulnerable",
+				"third_value": 0.15
+			}
+		],
+		"image": 5,
+		"description": "Apply 0.15 Vulnerable per Corrosion stack consumed."
+	},
+	{
+		"id": "acid_magic_neutralizing_salts",
+		"name": "Neutralizing Salts",
+		"type": "defensive",
+		"bonuses": [
+			{
+				"effect": "resistance",
+				"value": 4,
+				"secondary_value": "acid"
+			}
+		],
+		"image": 6,
+		"description": "Grant 4 acid resistance on the socketed ability."
+	},
+	{
+		"id": "acid_magic_residual_pool",
+		"name": "Residual Pool",
+		"type": "utility",
+		"bonuses": [
+			{
+				"effect": "summon",
+				"value": "acid_magic_acid_puddle"
+			},
+			{
+				"effect": "summon_count",
+				"value": 3
+			}
+		],
+		"image": 7,
+		"description": "Leave 3 short-lived acid puddles at the impact."
+	},
+	{
+		"id": "acid_magic_lung_burn",
+		"name": "Lung Burn",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "burn_stamina",
+				"value": 4
+			}
+		],
+		"image": 0,
+		"description": "Burn 4 stamina from the target."
+	},
+	{
+		"id": "acid_magic_acidaras_brand",
+		"name": "Acidara's Brand",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "silence",
+				"value": 2
+			}
+		],
+		"image": 1,
+		"description": "Burn the voice out of them. Silence 2 turns on the socketed hit."
+	},
+	{
+		"id": "acid_magic_aqua_regia",
+		"name": "Aqua Regia",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "aoe_range",
+				"value": 1
+			},
+			{
+				"effect": "stacker",
+				"value": "arendeth_acid_magic_Corrosion",
+				"secondary_value": 2
+			}
+		],
+		"image": 2,
+		"description": "The solvent that eats gold. Increase area by 1 and apply 2 extra Corrosion."
+	},
+	{
+		"id": "acid_magic_flesh_solvent",
+		"name": "Flesh Solvent",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "consume_tick_damage",
+				"value": "bleed",
+				"secondary_value": "heal",
+				"third_value": 0.25
+			}
+		],
+		"image": 3,
+		"description": "If the target is Bleeding, consume it and heal 25 percent of that tick."
+	},
+	{
+		"id": "acid_magic_alkali_crash",
+		"name": "Alkali Crash",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "consume_tick_damage",
+				"value": "poison_effect"
+			}
+		],
+		"image": 4,
+		"description": "Acid plus base. Consume Poison on the target when the socketed ability hits."
+	},
+	{
+		"id": "acid_magic_oleum",
+		"name": "Oleum",
+		"type": "offensive",
+		"image": 5,
+		"description": "Fuming sulfuric. Socketed ability lasts 3 turns longer; the acid keeps eating.",
+		"duration": 3
+	},
+	{
+		"id": "acid_magic_fume_kiss",
+		"name": "Fume Kiss",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "poison_effect",
+				"value": 1
+			}
+		],
+		"image": 6,
+		"description": "A whiff of poison on the acid hit."
+	},
+	{
+		"id": "acid_magic_etch_reach",
+		"name": "Etch Reach",
+		"type": "utility",
+		"bonuses": [],
+		"image": 7,
+		"range": 1,
+		"description": "The jet stretches. +1 range."
+	},
+	{
+		"id": "acid_magic_sting",
+		"name": "Sting",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "burn_stamina",
+				"value": 2
+			}
+		],
+		"image": 0,
+		"description": "The fumes steal 2 stamina."
+	},
+	{
+		"id": "acid_magic_quick_pour",
+		"name": "Quick Pour",
+		"type": "utility",
+		"bonuses": [],
+		"image": 1,
+		"cast_time": -0.1,
+		"description": "Unstopper faster. -0.1 cast time."
+	},
+	{
+		"id": "acid_magic_splashback",
+		"name": "Splashback",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "knockback",
+				"value": 1
+			}
+		],
+		"image": 2,
+		"description": "The jet kicks the target back 1 tile."
+	},
+	{
+		"id": "acid_magic_drip",
+		"name": "Drip",
+		"type": "utility",
+		"bonuses": [],
+		"image": 3,
+		"description": "Wards, auras, and lingering acid last 1 turn longer.",
+		"duration": 1.0
+	},
+	{
+		"id": "acid_magic_dilute",
+		"name": "Dilute",
+		"type": "utility",
+		"image": 4,
+		"cost_stamina": -1,
+		"description": "Thin the mixture so it costs 1 less stamina."
+	},
+	{
+		"id": "acid_magic_weak_unleash",
+		"name": "Weak Unleash",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "damage_per_stacks",
+				"value": 1
+			}
+		],
+		"image": 5,
+		"description": "Deal 1 extra damage per Catalysis stack on the caster."
+	}
+]

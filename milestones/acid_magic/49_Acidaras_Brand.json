@@ -1,0 +1,16 @@
+{
+	"id": "acid_magic_acidaras_brand",
+	"name": "Acidara's Brand",
+	"requirements": {
+		"milestones": [],
+		"skill": 49
+	},
+	"rewards": [
+		{
+			"amplifier": "acid_magic_acidaras_brand"
+		}
+	],
+	"skill_id": "arendeth_acid_magic",
+	"steps": [],
+	"steps_type": 0
+}

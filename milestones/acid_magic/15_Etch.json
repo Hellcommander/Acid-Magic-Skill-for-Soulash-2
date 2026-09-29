@@ -1,0 +1,16 @@
+{
+	"id": "acid_magic_etch",
+	"name": "Etch",
+	"requirements": {
+		"milestones": [],
+		"skill": 15
+	},
+	"rewards": [
+		{
+			"ability": "acid_magic_etch"
+		}
+	],
+	"skill_id": "arendeth_acid_magic",
+	"steps": [],
+	"steps_type": 0
+}

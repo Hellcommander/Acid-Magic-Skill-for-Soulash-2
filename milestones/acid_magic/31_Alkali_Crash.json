@@ -1,0 +1,16 @@
+{
+	"id": "acid_magic_alkali_crash",
+	"name": "Alkali Crash",
+	"requirements": {
+		"milestones": [],
+		"skill": 31
+	},
+	"rewards": [
+		{
+			"amplifier": "acid_magic_alkali_crash"
+		}
+	],
+	"skill_id": "arendeth_acid_magic",
+	"steps": [],
+	"steps_type": 0
+}

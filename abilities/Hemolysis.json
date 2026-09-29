@@ -1,0 +1,31 @@
+{
+	"id": "acid_magic_hemolysis",
+	"name": "Hemolysis",
+	"description": "Acid meets blood. Consumes Bleed and deals ::damage ::damage_type, returning a fraction as life.",
+	"target": "health",
+	"range": 4,
+	"effects": {
+		"damage": [
+			5,
+			9
+		],
+		"damage_type": "acid",
+		"consume_tick_damage": "bleed",
+		"damage_as_life": 0.02,
+		"magic_power_damage": 0.8
+	},
+	"cost": {
+		"health": 0,
+		"stamina": 9
+	},
+	"cast_time": 0.6,
+	"cooldown": 11.0,
+	"skill": "arendeth_acid_magic",
+	"slots": {
+		"offensive": 2,
+		"utility": 1
+	},
+	"duration": 0.0,
+	"animation": "acid_magic_hemolysis_fx",
+	"image": 5
+}

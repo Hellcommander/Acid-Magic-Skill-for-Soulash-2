@@ -1,0 +1,30 @@
+{
+    "id": "acid_magic_fuming_aura",
+    "name": "Fuming Aura",
+    "description": "[color=120,200,80,255]Aura:[/color] ::aura`n`nCaustic fumes pulse each turn, dealing acid damage, applying Corrosion, and weakening armor for ::duration turns.",
+    "target": "self",
+    "range": 0,
+    "effects": {
+        "thorns": 3,
+        "damage_type": "acid",
+        "armor_break": 1,
+        "hit_chance": -1
+    },
+    "effects_keys": {
+        "aura": "acid_magic_fuming_aura_trigger"
+    },
+    "cost": {
+        "health": 0,
+        "stamina": 12
+    },
+    "cast_time": 0.8,
+    "cooldown": 20.0,
+    "duration": 6.0,
+    "skill": "arendeth_acid_magic",
+    "slots": {
+        "offensive": 1,
+        "utility": 1
+    },
+    "animation": "acid_magic_fuming_aura_fx",
+    "image": 2
+}

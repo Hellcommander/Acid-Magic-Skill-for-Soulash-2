@@ -1,0 +1,16 @@
+{
+	"id": "acid_magic_neutralize",
+	"name": "Neutralize",
+	"requirements": {
+		"milestones": [],
+		"skill": 23
+	},
+	"rewards": [
+		{
+			"ability": "acid_magic_neutralize"
+		}
+	],
+	"skill_id": "arendeth_acid_magic",
+	"steps": [],
+	"steps_type": 0
+}

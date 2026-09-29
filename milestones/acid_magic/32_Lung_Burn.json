@@ -1,0 +1,16 @@
+{
+	"id": "acid_magic_lung_burn",
+	"name": "Lung Burn",
+	"requirements": {
+		"milestones": [],
+		"skill": 32
+	},
+	"rewards": [
+		{
+			"amplifier": "acid_magic_lung_burn"
+		}
+	],
+	"skill_id": "arendeth_acid_magic",
+	"steps": [],
+	"steps_type": 0
+}

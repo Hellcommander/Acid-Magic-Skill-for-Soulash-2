@@ -1,0 +1,25 @@
+{
+	"animation": "acid_magic_choking_vapor_fx",
+	"cast_time": 0.0,
+	"cooldown": 0.0,
+	"cost": {
+		"health": 0,
+		"stamina": 0
+	},
+	"description": "Each stack applies armor breaker 1 and lowers resistance by 1.",
+	"duration": 3.0,
+	"effects": {
+		"break_armor": 1,
+		"resistance": 1
+	},
+	"id": "arendeth_acid_magic_Corrosion",
+	"image": 623,
+	"name": "Corrosion",
+	"range": 0,
+	"skill": "arendeth_acid_magic",
+	"slots": {
+		"offensive": 3,
+		"utility": 2
+	},
+	"target": "health"
+}

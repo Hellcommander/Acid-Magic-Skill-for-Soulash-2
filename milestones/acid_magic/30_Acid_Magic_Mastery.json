@@ -1,0 +1,16 @@
+{
+	"id": "acid_magic_mastery",
+	"name": "Acid Magic Mastery",
+	"requirements": {
+		"milestones": [],
+		"skill": 30
+	},
+	"rewards": [
+		{
+			"passive": "acid_magic_mastery"
+		}
+	],
+	"skill_id": "arendeth_acid_magic",
+	"steps": [],
+	"steps_type": 0
+}

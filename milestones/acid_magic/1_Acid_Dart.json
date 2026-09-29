@@ -1,0 +1,16 @@
+{
+	"id": "acid_magic_acid_dart",
+	"name": "Acid Dart",
+	"requirements": {
+		"milestones": [],
+		"skill": 1
+	},
+	"rewards": [
+		{
+			"ability": "acid_magic_acid_dart"
+		}
+	],
+	"skill_id": "arendeth_acid_magic",
+	"steps": [],
+	"steps_type": 0
+}

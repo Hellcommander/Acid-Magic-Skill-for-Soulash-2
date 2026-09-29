@@ -1,0 +1,16 @@
+{
+	"id": "acid_magic_fume_kiss",
+	"name": "Fume Kiss",
+	"requirements": {
+		"milestones": [],
+		"skill": 2
+	},
+	"rewards": [
+		{
+			"amplifier": "acid_magic_fume_kiss"
+		}
+	],
+	"skill_id": "arendeth_acid_magic",
+	"steps": [],
+	"steps_type": 0
+}

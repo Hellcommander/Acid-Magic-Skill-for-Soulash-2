@@ -1,0 +1,34 @@
+{
+	"id": "acid_magic_acid_dart",
+	"name": "Acid Dart",
+	"description": "Hurl a vitriol dart. Deals ::damage ::damage_type and applies 1 Corrosion.",
+	"target": "health",
+	"range": 5,
+	"effects": {
+		"damage": [
+			3,
+			7
+		],
+		"damage_type": "acid",
+		"stacker_count": 1,
+		"hit_chance": -1, 
+		"magic_power_damage": 1.0
+	},
+	"effects_keys": {
+		"stacker": "arendeth_acid_magic_Corrosion"
+	},
+	"cost": {
+		"health": 0,
+		"stamina": 4
+	},
+	"cast_time": 0.5,
+	"cooldown": 3.0,
+	"skill": "arendeth_acid_magic",
+	"slots": {
+		"offensive": 2,
+		"utility": 2
+	},
+	"duration": 0.0,
+	"animation": "acid_magic_acid_dart_fx",
+	"image": 0
+}

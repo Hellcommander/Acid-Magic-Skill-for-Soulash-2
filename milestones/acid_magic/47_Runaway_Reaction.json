@@ -1,0 +1,16 @@
+{
+	"id": "acid_magic_runaway_reaction",
+	"name": "Runaway Reaction",
+	"requirements": {
+		"milestones": [],
+		"skill": 47
+	},
+	"rewards": [
+		{
+			"amplifier": "acid_magic_runaway_reaction"
+		}
+	],
+	"skill_id": "arendeth_acid_magic",
+	"steps": [],
+	"steps_type": 0
+}
