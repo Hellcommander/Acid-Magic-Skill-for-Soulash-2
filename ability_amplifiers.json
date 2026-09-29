@@ -23,8 +23,9 @@
 				"value": 2
 			}
 		],
+		"duration": 2,
 		"image": 1,
-		"description": "Add poison exposure to the acid hit."
+		"description": "Add +2 poison exposure to the hit and +2 duration."
 	},
 	{
 		"id": "acid_magic_unleash_catalysis",
@@ -133,12 +134,17 @@
 		"type": "offensive",
 		"bonuses": [
 			{
-				"effect": "silence",
-				"value": 2
+				"effect": "turn_damage_to_stacks",
+				"value": "arendeth_acid_magic_Cryothermic_Catalyst",
+				"secondary_value": 0.6
+			}
+			{
+				"effect": "resistance_percent",
+				"value": -60,
+				"secondary_value": "acid"
 			}
 		],
-		"image": 1,
-		"description": "Burn the voice out of them. Silence 2 turns on the socketed hit."
+		"description": "60% Reduces Acid Resistance + 10 duration + convert 60% of damage into Cryothermic Catalyst stacks (2 stamina burn, + 1 frostbite, 2-3 acid, can crit at a 15% chance and scales with magic power per stack)"
 	},
 	{
 		"id": "acid_magic_aqua_regia",
@@ -147,7 +153,7 @@
 		"bonuses": [
 			{
 				"effect": "aoe_range",
-				"value": 1
+				"value": 2
 			},
 			{
 				"effect": "stacker",
@@ -279,6 +285,6 @@
 			}
 		],
 		"image": 5,
-		"description": "Deal 1 extra damage per Catalysis stack on the caster."
+		"description": "Deal 1 extra damage per stack"
 	}
 ]

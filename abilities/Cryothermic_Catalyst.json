@@ -1,0 +1,29 @@
+{
+	"animation": "34",
+	"cast_time": 0.0,
+	"cooldown": 0.0,
+	"cost": {
+		"health": 0,
+		"stamina": 0
+	},
+	"description": "Trigger a volatile acid reaction that burns stamina and freezes flesh at once. Deals ::damage ::damage_type damage, scales with Magic, and can critically hit. The reaction leaves targets frostbitten and drained.",
+	"duration": 6.0,
+	"effects": {
+		"ability_can_crit": 1,
+		"burn_stamina": 2,
+		"critical_hit_chance": 0.15000000596046448,
+		"damage": [
+			2,
+			3
+		],
+		"damage_type": "acid",
+		"frostbite": 1,
+		"magic_power_damage": 1.0
+	},
+	"id": "arendeth_acid_magic_Cryothermic_Catalyst",
+	"image": 623,
+	"name": "Cryothermic Catalyst",
+	"range": 0,
+	"skill": "arendeth_acid_magic",
+	"target": "actor"
+}
