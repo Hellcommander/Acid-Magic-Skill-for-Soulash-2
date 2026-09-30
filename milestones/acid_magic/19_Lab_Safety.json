@@ -2,7 +2,9 @@
 	"id": "acid_magic_lab_safety",
 	"name": "Lab Safety",
 	"requirements": {
-		"milestones": [],
+		"milestones": [
+			"acid_magic_alembic_ward"
+		],
 		"skill": 19
 	},
 	"rewards": [

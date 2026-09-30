@@ -137,7 +137,7 @@
 				"effect": "turn_damage_to_stacks",
 				"value": "arendeth_acid_magic_Cryothermic_Catalyst",
 				"secondary_value": 0.6
-			}
+			},
 			{
 				"effect": "resistance_percent",
 				"value": -60,

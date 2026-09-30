@@ -2,7 +2,9 @@
 	"id": "acid_magic_neutralize",
 	"name": "Neutralize",
 	"requirements": {
-		"milestones": [],
+		"milestones": [
+			"acid_magic_lab_safety"
+		],
 		"skill": 23
 	},
 	"rewards": [

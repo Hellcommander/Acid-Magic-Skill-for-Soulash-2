@@ -2,7 +2,9 @@
 	"id": "acid_magic_vitriol_step",
 	"name": "Vitriol Step",
 	"requirements": {
-		"milestones": [],
+		"milestones": [
+			"acid_magic_dilute"
+		],
 		"skill": 13
 	},
 	"rewards": [

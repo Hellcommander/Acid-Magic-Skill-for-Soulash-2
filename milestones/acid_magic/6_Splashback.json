@@ -2,7 +2,9 @@
 	"id": "acid_magic_splashback",
 	"name": "Splashback",
 	"requirements": {
-		"milestones": [],
+		"milestones": [
+			"acid_magic_etch_reach"
+		],
 		"skill": 6
 	},
 	"rewards": [

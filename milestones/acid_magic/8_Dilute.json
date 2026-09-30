@@ -2,7 +2,9 @@
 	"id": "acid_magic_dilute",
 	"name": "Dilute",
 	"requirements": {
-		"milestones": [],
+		"milestones": [
+			"acid_magic_splashback"
+		],
 		"skill": 8
 	},
 	"rewards": [

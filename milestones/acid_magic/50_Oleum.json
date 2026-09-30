@@ -2,7 +2,9 @@
 	"id": "acid_magic_oleum",
 	"name": "Oleum",
 	"requirements": {
-		"milestones": [],
+		"milestones": [
+			"acid_magic_hemolysis"
+		],
 		"skill": 50
 	},
 	"rewards": [

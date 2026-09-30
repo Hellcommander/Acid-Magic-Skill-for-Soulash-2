@@ -2,7 +2,9 @@
 	"id": "acid_magic_residual_pool",
 	"name": "Residual Pool",
 	"requirements": {
-		"milestones": [],
+		"milestones": [
+			"acid_magic_acid_pool"
+		],
 		"skill": 12
 	},
 	"rewards": [

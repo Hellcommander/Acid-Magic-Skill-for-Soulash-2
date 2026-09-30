@@ -2,7 +2,9 @@
 	"id": "acid_magic_flesh_solvent",
 	"name": "Flesh Solvent",
 	"requirements": {
-		"milestones": [],
+		"milestones": [
+			"acid_magic_fuming_mixture"
+		],
 		"skill": 16
 	},
 	"rewards": [

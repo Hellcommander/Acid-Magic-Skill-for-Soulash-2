@@ -2,7 +2,9 @@
 	"id": "acid_magic_sting",
 	"name": "Sting",
 	"requirements": {
-		"milestones": [],
+		"milestones": [
+			"acid_magic_fume_kiss"
+		],
 		"skill": 4
 	},
 	"rewards": [

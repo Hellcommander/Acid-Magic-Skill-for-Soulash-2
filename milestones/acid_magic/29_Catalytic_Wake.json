@@ -2,7 +2,9 @@
 	"id": "acid_magic_catalytic_wake",
 	"name": "Catalytic Wake",
 	"requirements": {
-		"milestones": [],
+		"milestones": [
+			"acid_magic_catalyst_amp"
+		],
 		"skill": 29
 	},
 	"rewards": [

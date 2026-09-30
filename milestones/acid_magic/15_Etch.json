@@ -2,7 +2,9 @@
 	"id": "acid_magic_etch",
 	"name": "Etch",
 	"requirements": {
-		"milestones": [],
+		"milestones": [
+			"acid_magic_corrosive_primer"
+		],
 		"skill": 15
 	},
 	"rewards": [

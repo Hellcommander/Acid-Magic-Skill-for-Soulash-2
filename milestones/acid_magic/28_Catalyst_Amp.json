@@ -2,7 +2,9 @@
 	"id": "acid_magic_catalyst_amp",
 	"name": "Catalyst Amp",
 	"requirements": {
-		"milestones": [],
+		"milestones": [
+			"acid_magic_unleash_catalysis"
+		],
 		"skill": 28
 	},
 	"rewards": [

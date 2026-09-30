@@ -2,7 +2,9 @@
 	"id": "acid_magic_fuming_mixture",
 	"name": "Fuming Mixture",
 	"requirements": {
-		"milestones": [],
+		"milestones": [
+			"acid_magic_sting"
+		],
 		"skill": 13
 	},
 	"rewards": [

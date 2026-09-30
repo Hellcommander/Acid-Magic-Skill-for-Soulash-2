@@ -2,7 +2,9 @@
 	"id": "acid_magic_quick_pour",
 	"name": "Quick Pour",
 	"requirements": {
-		"milestones": [],
+		"milestones": [
+			"acid_magic_etch_reach"
+		],
 		"skill": 5
 	},
 	"rewards": [

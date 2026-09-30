@@ -2,7 +2,9 @@
 	"id": "acid_magic_lung_burn",
 	"name": "Lung Burn",
 	"requirements": {
-		"milestones": [],
+		"milestones": [
+			"acid_magic_acid_gag"
+		],
 		"skill": 32
 	},
 	"rewards": [

@@ -2,7 +2,12 @@
 	"id": "acid_magic_mastery",
 	"name": "Acid Magic Mastery",
 	"requirements": {
-		"milestones": [],
+		"milestones": [
+			"acid_magic_catalytic_wake",
+			"acid_magic_volatile_reaction",
+			"acid_magic_neutralizing_salts",
+			"acid_magic_acid_gag"
+		],
 		"skill": 30
 	},
 	"rewards": [

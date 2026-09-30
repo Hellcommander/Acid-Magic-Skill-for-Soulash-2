@@ -2,7 +2,9 @@
 	"id": "acid_magic_fume_kiss",
 	"name": "Fume Kiss",
 	"requirements": {
-		"milestones": [],
+		"milestones": [
+			"acid_magic_acid_dart"
+		],
 		"skill": 2
 	},
 	"rewards": [

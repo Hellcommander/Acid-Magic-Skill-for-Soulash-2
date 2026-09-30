@@ -2,7 +2,9 @@
 	"id": "arendeth_acid_magic_Thermotoxic_Spray",
 	"name": "Thermotoxic Spray",
 	"requirements": {
-		"milestones": [],
+		"milestones": [
+			"acid_magic_flesh_solvent"
+		],
 		"skill": 21
 	},
 	"rewards": [

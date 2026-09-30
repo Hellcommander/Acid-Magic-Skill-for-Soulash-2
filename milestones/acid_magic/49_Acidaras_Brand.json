@@ -2,7 +2,9 @@
 	"id": "acid_magic_acidaras_brand",
 	"name": "Acidara's Brand",
 	"requirements": {
-		"milestones": [],
+		"milestones": [
+			"acid_magic_runaway_reaction"
+		],
 		"skill": 49
 	},
 	"rewards": [

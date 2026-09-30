@@ -2,7 +2,9 @@
 	"id": "acid_magic_armor_melt",
 	"name": "Armor Melt",
 	"requirements": {
-		"milestones": [],
+		"milestones": [
+			"acid_magic_etch"
+		],
 		"skill": 17
 	},
 	"rewards": [

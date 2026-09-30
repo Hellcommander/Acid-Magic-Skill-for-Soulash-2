@@ -2,7 +2,9 @@
 	"id": "acid_magic_volatile_catalyst",
 	"name": "Volatile Catalyst",
 	"requirements": {
-		"milestones": [],
+		"milestones": [
+			"acid_magic_volatile_reaction"
+		],
 		"skill": 30
 	},
 	"rewards": [
