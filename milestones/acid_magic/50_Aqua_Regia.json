@@ -2,9 +2,7 @@
 	"id": "acid_magic_aqua_regia",
 	"name": "Aqua Regia",
 	"requirements": {
-		"milestones": [
-			"acid_magic_acidaras_brand"
-		],
+		"milestones": [],
 		"skill": 50
 	},
 	"rewards": [

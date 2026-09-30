@@ -2,9 +2,7 @@
 	"id": "acid_magic_neutralizing_salts",
 	"name": "Neutralizing Salts",
 	"requirements": {
-		"milestones": [
-			"acid_magic_neutralize"
-		],
+		"milestones": [],
 		"skill": 26
 	},
 	"rewards": [

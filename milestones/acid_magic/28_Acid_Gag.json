@@ -2,9 +2,7 @@
 	"id": "acid_magic_acid_gag",
 	"name": "Acid Gag",
 	"requirements": {
-		"milestones": [
-			"arendeth_acid_magic_Thermotoxic_Spray"
-		],
+		"milestones": [],
 		"skill": 28
 	},
 	"rewards": [

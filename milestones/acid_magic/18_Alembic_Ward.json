@@ -2,9 +2,7 @@
 	"id": "acid_magic_alembic_ward",
 	"name": "Alembic Ward",
 	"requirements": {
-		"milestones": [
-			"acid_magic_vitriol_step"
-		],
+		"milestones": [],
 		"skill": 18
 	},
 	"rewards": [

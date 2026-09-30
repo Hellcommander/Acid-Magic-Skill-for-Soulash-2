@@ -2,9 +2,7 @@
 	"id": "acid_magic_volatile_reaction",
 	"name": "Volatile Reaction",
 	"requirements": {
-		"milestones": [
-			"acid_magic_chemical_recycling"
-		],
+		"milestones": [],
 		"skill": 27
 	},
 	"rewards": [

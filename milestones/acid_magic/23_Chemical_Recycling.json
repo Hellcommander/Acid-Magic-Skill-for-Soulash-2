@@ -2,9 +2,7 @@
 	"id": "acid_magic_chemical_recycling",
 	"name": "Chemical Recycling",
 	"requirements": {
-		"milestones": [
-			"acid_magic_residual_pool"
-		],
+		"milestones": [],
 		"skill": 23
 	},
 	"rewards": [

@@ -2,9 +2,7 @@
 	"id": "acid_magic_corrosive_primer",
 	"name": "Corrosive Primer",
 	"requirements": {
-		"milestones": [
-			"acid_magic_weak_unleash"
-		],
+		"milestones": [],
 		"skill": 14
 	},
 	"rewards": [

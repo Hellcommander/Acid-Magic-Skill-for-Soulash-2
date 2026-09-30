@@ -2,9 +2,7 @@
 	"id": "acid_magic_weak_unleash",
 	"name": "Weak Unleash",
 	"requirements": {
-		"milestones": [
-			"acid_magic_corrosive_coating"
-		],
+		"milestones": [],
 		"skill": 10
 	},
 	"rewards": [

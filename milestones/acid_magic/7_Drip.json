@@ -2,9 +2,7 @@
 	"id": "acid_magic_drip",
 	"name": "Drip",
 	"requirements": {
-		"milestones": [
-			"acid_magic_quick_pour"
-		],
+		"milestones": [],
 		"skill": 7
 	},
 	"rewards": [

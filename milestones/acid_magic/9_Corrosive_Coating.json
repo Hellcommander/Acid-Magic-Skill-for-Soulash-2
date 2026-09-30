@@ -2,9 +2,7 @@
 	"id": "acid_magic_corrosive_coating",
 	"name": "Corrosive Coating",
 	"requirements": {
-		"milestones": [
-			"acid_magic_sting"
-		],
+		"milestones": [],
 		"skill": 9
 	},
 	"rewards": [

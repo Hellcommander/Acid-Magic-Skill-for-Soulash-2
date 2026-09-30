@@ -2,9 +2,7 @@
 	"id": "acid_magic_runaway_reaction",
 	"name": "Runaway Reaction",
 	"requirements": {
-		"milestones": [
-			"acid_magic_volatile_catalyst"
-		],
+		"milestones": [],
 		"skill": 47
 	},
 	"rewards": [

@@ -2,9 +2,7 @@
 	"id": "acid_magic_unleash_catalysis",
 	"name": "Unleash Catalysis",
 	"requirements": {
-		"milestones": [
-			"acid_magic_armor_melt"
-		],
+		"milestones": [],
 		"skill": 23
 	},
 	"rewards": [

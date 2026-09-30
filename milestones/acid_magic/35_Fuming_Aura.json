@@ -2,9 +2,7 @@
 	"id": "acid_magic_fuming_aura",
 	"name": "Fuming Aura",
 	"requirements": {
-		"milestones": [
-			"acid_magic_lung_burn"
-		],
+		"milestones": [],
 		"skill": 35
 	},
 	"rewards": [

@@ -2,9 +2,7 @@
 	"id": "acid_magic_book_of_acid_magic",
 	"name": "Book of Acid Magic",
 	"requirements": {
-		"milestones": [
-			"acid_magic_acidara_reagent"
-		],
+		"milestones": [],
 		"skill": 44
 	},
 	"rewards": [

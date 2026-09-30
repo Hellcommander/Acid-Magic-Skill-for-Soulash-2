@@ -2,9 +2,7 @@
 	"id": "acid_magic_total_dissolution",
 	"name": "Total Dissolution",
 	"requirements": {
-		"milestones": [
-			"acid_magic_acidara_reagent"
-		],
+		"milestones": [],
 		"skill": 50
 	},
 	"rewards": [

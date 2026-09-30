@@ -2,9 +2,7 @@
 	"id": "acid_magic_etch_reach",
 	"name": "Etch Reach",
 	"requirements": {
-		"milestones": [
-			"acid_magic_acid_dart"
-		],
+		"milestones": [],
 		"skill": 3
 	},
 	"rewards": [

@@ -2,9 +2,7 @@
 	"id": "acid_magic_alkali_crash",
 	"name": "Alkali Crash",
 	"requirements": {
-		"milestones": [
-			"acid_magic_neutralizing_salts"
-		],
+		"milestones": [],
 		"skill": 31
 	},
 	"rewards": [

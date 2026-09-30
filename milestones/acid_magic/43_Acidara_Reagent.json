@@ -2,9 +2,7 @@
 	"id": "acid_magic_acidara_reagent",
 	"name": "Acidara Reagent",
 	"requirements": {
-		"milestones": [
-			"acid_magic_mastery"
-		],
+		"milestones": [],
 		"skill": 43
 	},
 	"rewards": [

@@ -2,9 +2,7 @@
 	"id": "acid_magic_hemolysis",
 	"name": "Hemolysis",
 	"requirements": {
-		"milestones": [
-			"acid_magic_fuming_aura"
-		],
+		"milestones": [],
 		"skill": 39
 	},
 	"rewards": [

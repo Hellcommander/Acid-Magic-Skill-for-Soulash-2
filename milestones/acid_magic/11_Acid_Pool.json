@@ -2,9 +2,7 @@
 	"id": "acid_magic_acid_pool",
 	"name": "Acid Pool",
 	"requirements": {
-		"milestones": [
-			"acid_magic_drip"
-		],
+		"milestones": [],
 		"skill": 11
 	},
 	"rewards": [
