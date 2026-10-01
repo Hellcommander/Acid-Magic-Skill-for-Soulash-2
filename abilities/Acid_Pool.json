@@ -1,33 +1,36 @@
 {
-    "id": "acid_magic_acid_pool",
-    "name": "Acid Pool",
-    "description": "Pour caustic pools onto tiles. Deals acid damage, spawns acid puddles, and applies Corrosion.",
-    "target": "aoe_tile",
-    "range": 6,
-    "effects": {
-        "damage": [3, 6],
-        "damage_type": "acid",
-        "summon_count": 6,
-        "stacker_count": 1,
-        "aoe_range": 2,
-        "aoe_shape": 1
-    },
-    "effects_keys": {
-        "summon": "acid_magic_acid_puddle",
-        "stacker": "arendeth_acid_magic_Corrosion"
-    },
-    "cost": {
-        "health": 0,
-        "stamina": 8
-    },
-    "cast_time": 0.9,
-    "cooldown": 12.0,
-    "duration": 5.0,
-    "skill": "arendeth_acid_magic",
-    "slots": {
-        "offensive": 1,
-        "utility": 1
-    },
-    "animation": "acid_magic_acid_pool_fx",
-    "image": 4
+	"id": "acid_magic_acid_pool",
+	"name": "Acid Pool",
+	"description": "Pour caustic pools onto tiles. Deals ::damage ::damage_type damage, spawns acid puddles, and applies Corrosion.",
+	"target": "aoe_tile",
+	"range": 6,
+	"effects": {
+		"damage": [
+			3,
+			6
+		],
+		"damage_type": "acid",
+		"summon_count": 6,
+		"stacker_count": 1,
+		"aoe_range": 2,
+		"aoe_shape": 1
+	},
+	"effects_keys": {
+		"summon": "acid_magic_acid_puddle",
+		"stacker": "arendeth_acid_magic_corrosion"
+	},
+	"cost": {
+		"health": 0,
+		"stamina": 8
+	},
+	"cast_time": 0.9,
+	"cooldown": 12.0,
+	"duration": 5.0,
+	"skill": "arendeth_acid_magic",
+	"slots": {
+		"offensive": 1,
+		"utility": 1
+	},
+	"animation": "acid_magic_acid_pool_fx",
+	"image": 4
 }

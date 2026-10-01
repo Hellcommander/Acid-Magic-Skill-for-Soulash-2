@@ -1,31 +1,35 @@
 {
-    "id": "acid_magic_total_dissolution",
-    "name": "Total Dissolution",
-    "description": "Deals heavy acid damage, applies Corrosion (3) and Vulnerable (1). Corrosion increases damage taken and can be consumed by Runaway Reaction.",
-    "target": "health",
-    "range": 6,
-    "effects": {
-        "damage": [18, 28],
-        "damage_type": "acid",
-        "vulnerable": 1,
+	"id": "acid_magic_total_dissolution",
+	"name": "Total Dissolution",
+	"description": "Deals heavy acid damage, applies Corrosion (3) and Vulnerable (1). Corrosion increases damage taken and can be consumed by Runaway Reaction.",
+	"target": "health",
+	"range": 6,
+	"effects": {
+		"damage": [
+			18,
+			28
+		],
+		"damage_type": "acid",
+		"vulnerable": 1,
 		"stacker_count": 1,
-        "magic_power_damage": 1.1
-    },
-    "effects_keys": {
-        "stacker": "arendeth_acid_magic_Corrosion"
-    },
-    "cost": {
-        "health": 0,
-        "stamina": 16
-    },
-    "cast_time": 1.2,
-    "cooldown": 20.0,
-    "skill": "arendeth_acid_magic",
-    "slots": {
-        "offensive": 1,
-        "utility": 1
-    },
-    "duration": 0.0,
-    "animation": "acid_magic_total_dissolution_fx",
-    "image": 3
+		"magic_power_damage": 1.1
+	},
+	"effects_keys": {
+		"stacker": "arendeth_acid_magic_corrosion"
+	},
+	"cost": {
+		"health": 0,
+		"stamina": 16
+	},
+	"cast_time": 1.2,
+	"cooldown": 20.0,
+	"skill": "arendeth_acid_magic",
+	"slots": {
+		"offensive": 1,
+		"utility": 1
+	},
+	"duration": 0.0,
+	"animation": "acid_magic_total_dissolution_fx",
+	"image": 3,
+	"_file": "Total_Dissolution.json"
 }

@@ -11,11 +11,11 @@
 		],
 		"damage_type": "acid",
 		"stacker_count": 1,
-		"hit_chance": -1, 
+		"hit_chance": -1,
 		"magic_power_damage": 1.0
 	},
 	"effects_keys": {
-		"stacker": "arendeth_acid_magic_Corrosion"
+		"stacker": "arendeth_acid_magic_corrosion"
 	},
 	"cost": {
 		"health": 0,

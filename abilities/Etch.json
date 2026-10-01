@@ -1,32 +1,35 @@
 {
-    "id": "acid_magic_etch",
-    "name": "Etch",
-    "description": "Score a corrosive line. Deals ::damage ::damage_type, pierces multiple foes, and applies Corrosion to each.",
-    "target": "line",
-    "range": 6,
-    "effects": {
-        "damage": [4, 9],
-        "damage_type": "acid",
-        "stacker_count": 1,
-        "pierce": 2,
-        "magic_power_damage": 1.0,
-        "vulnerable": 1
-    },
-    "effects_keys": {
-        "stacker": "arendeth_acid_magic_Corrosion"
-    },
-    "cost": {
-        "health": 0,
-        "stamina": 5
-    },
-    "cast_time": 0.6,
-    "cooldown": 4.0,
-    "skill": "arendeth_acid_magic",
-    "slots": {
-        "offensive": 2,
-        "utility": 2
-    },
-    "duration": 0.0,
-    "animation": "acid_magic_etch_fx",
-    "image": 1
+	"id": "acid_magic_etch",
+	"name": "Etch",
+	"description": "Score a corrosive line. Deals ::damage ::damage_type, pierces multiple foes, and applies Corrosion to each.",
+	"target": "line",
+	"range": 6,
+	"effects": {
+		"damage": [
+			4,
+			9
+		],
+		"damage_type": "acid",
+		"stacker_count": 1,
+		"pierce": 2,
+		"magic_power_damage": 1.0,
+		"vulnerable": 1
+	},
+	"effects_keys": {
+		"stacker": "arendeth_acid_magic_corrosion"
+	},
+	"cost": {
+		"health": 0,
+		"stamina": 5
+	},
+	"cast_time": 0.6,
+	"cooldown": 4.0,
+	"skill": "arendeth_acid_magic",
+	"slots": {
+		"offensive": 2,
+		"utility": 2
+	},
+	"duration": 0.0,
+	"animation": "acid_magic_etch_fx",
+	"image": 1
 }

@@ -20,7 +20,7 @@
 		"frostbite": 1,
 		"magic_power_damage": 1.0
 	},
-	"id": "arendeth_acid_magic_Cryothermic_Catalyst",
+	"id": "arendeth_acid_magic_cryothermic_catalyst",
 	"image": 623,
 	"name": "Cryothermic Catalyst",
 	"range": 0,

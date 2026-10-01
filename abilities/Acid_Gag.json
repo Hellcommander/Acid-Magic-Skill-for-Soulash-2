@@ -1,34 +1,35 @@
 {
-	"id": "acid_magic_acid_gag",
-	"name": "Acid Gag",
-	"description": "Dissolve the breath from a caster. Deals ::damage ::damage_type, silences, and applies Corrosion.",
-	"target": "health",
-	"range": 5,
+	"animation": "acid_magic_acid_gag_fx",
+	"cast_time": 0.6000000238418579,
+	"cooldown": 12.0,
+	"cost": {
+		"health": 8,
+		"stamina": 0
+	},
+	"description": "Dissolve the breath from a caster. Deals ::damage ::damage_type, silences, +1 damage per stack and applies Corrosion.",
+	"duration": 2.0,
 	"effects": {
 		"damage": [
 			2,
 			5
 		],
+		"damage_per_stacks": 1,
 		"damage_type": "acid",
-		"stacker_count": 1,
-		"silence": 2,
-		"magic_power_damage": 0.7
+		"magic_power_damage": 0.699999988079071,
+		"silence": 1,
+		"stacker_count": 1
 	},
 	"effects_keys": {
-		"stacker": "arendeth_acid_magic_Corrosion"
+		"stacker": "arendeth_acid_magic_corrosion"
 	},
-	"cost": {
-		"health": 0,
-		"stamina": 8
-	},
-	"cast_time": 0.6,
-	"cooldown": 12.0,
+	"id": "arendeth_acid_magic_Acid_Gag",
+	"image": 12,
+	"name": "Acid Gag",
+	"range": 5,
 	"skill": "arendeth_acid_magic",
 	"slots": {
-		"offensive": 1,
-		"utility": 1
+		"offensive": 2,
+		"utility": 2
 	},
-	"duration": 2.0,
-	"animation": "acid_magic_acid_gag_fx",
-	"image": 4
+	"target": "actor"
 }

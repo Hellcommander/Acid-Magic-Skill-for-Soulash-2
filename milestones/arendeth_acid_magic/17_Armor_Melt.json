@@ -1,13 +1,13 @@
 {
-	"id": "acid_magic_acid_gag",
-	"name": "Acid Gag",
+	"id": "arendeth_acid_magic_Armor_Melt",
+	"name": "Armor Melt",
 	"requirements": {
 		"milestones": [],
-		"skill": 28
+		"skill": 17
 	},
 	"rewards": [
 		{
-			"ability": "acid_magic_acid_gag"
+			"ability": "arendeth_acid_magic_Armor_Melt"
 		}
 	],
 	"skill_id": "arendeth_acid_magic",

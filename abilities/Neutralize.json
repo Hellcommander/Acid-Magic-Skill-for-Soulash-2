@@ -6,7 +6,7 @@
 		"health": 0,
 		"stamina": 7
 	},
-	"description": "Removes the target’s poison_effect stacks, clearing them and dealing 1 true damage. Acid plus base. Neutralizes poison from a target.",
+	"description": "Removes the target\u2019s poison_effect stacks, clearing them and dealing 1 true damage. Acid plus base. Neutralizes poison from a target.",
 	"duration": 0.0,
 	"effects": {
 		"damage": [

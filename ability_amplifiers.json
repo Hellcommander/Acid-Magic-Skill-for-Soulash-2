@@ -6,7 +6,7 @@
 		"bonuses": [
 			{
 				"effect": "stacker",
-				"value": "arendeth_acid_magic_Corrosion",
+				"value": "arendeth_acid_magic_corrosion",
 				"secondary_value": 1
 			}
 		],
@@ -47,7 +47,7 @@
 		"bonuses": [
 			{
 				"effect": "turn_damage_to_stacks",
-				"value": "arendeth_acid_magic_Corrosion",
+				"value": "arendeth_acid_magic_corrosion",
 				"secondary_value": 0.5
 			}
 		],
@@ -61,7 +61,7 @@
 		"bonuses": [
 			{
 				"effect": "effect_per_stack",
-				"value": "arendeth_acid_magic_Corrosion",
+				"value": "arendeth_acid_magic_corrosion",
 				"secondary_value": "knockback",
 				"third_value": 0.25
 			}
@@ -76,7 +76,7 @@
 		"bonuses": [
 			{
 				"effect": "effect_per_stack",
-				"value": "arendeth_acid_magic_Corrosion",
+				"value": "arendeth_acid_magic_corrosion",
 				"secondary_value": "vulnerable",
 				"third_value": 0.15
 			}
@@ -135,15 +135,17 @@
 		"bonuses": [
 			{
 				"effect": "turn_damage_to_stacks",
-				"value": "arendeth_acid_magic_Cryothermic_Catalyst",
+				"value": "arendeth_acid_magic_cryothermic_catalyst",
 				"secondary_value": 0.6
 			},
 			{
 				"effect": "resistance_percent",
-				"value": -60,
+				"value": -0.6,
 				"secondary_value": "acid"
 			}
 		],
+		"image": 0,
+		"duration": 10,
 		"description": "60% Reduces Acid Resistance + 10 duration + convert 60% of damage into Cryothermic Catalyst stacks (2 stamina burn, + 1 frostbite, 2-3 acid, can crit at a 15% chance and scales with magic power per stack)"
 	},
 	{
@@ -157,7 +159,7 @@
 			},
 			{
 				"effect": "stacker",
-				"value": "arendeth_acid_magic_Corrosion",
+				"value": "arendeth_acid_magic_corrosion",
 				"secondary_value": 2
 			}
 		],

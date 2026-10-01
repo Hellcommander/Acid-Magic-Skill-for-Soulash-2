@@ -1,24 +1,26 @@
 {
-    "id": "acid_magic_alembic_ward",
-    "name": "Alembic Ward",
-    "description": "Coat yourself in neutralizing salts and reactive bases. Gain strong acid resistance, halve incoming Corrosion, and cleanse existing Corrosion stacks.",
-    "target": "self",
-    "range": 0,
-    "effects": {
-        "neutralize": ["arendeth_acid_magic_Corrosion"]
-    },
-    "cost": {
-        "health": 0,
-        "stamina": 8
-    },
-    "cast_time": 0.6,
-    "cooldown": 18.0,
-    "duration": 8.0,
-    "skill": "arendeth_acid_magic",
-    "slots": {
-        "utility": 2,
-        "defensive": 2
-    },
-    "animation": "acid_magic_alembic_ward_fx",
-    "image": 2
+	"id": "acid_magic_alembic_ward",
+	"name": "Alembic Ward",
+	"description": "Coat yourself in neutralizing salts and reactive bases. Gain strong acid resistance, halve incoming Corrosion, and cleanse existing Corrosion stacks.",
+	"target": "self",
+	"range": 0,
+	"effects": {
+		"neutralize": [
+			"arendeth_acid_magic_corrosion"
+		]
+	},
+	"cost": {
+		"health": 0,
+		"stamina": 8
+	},
+	"cast_time": 0.6,
+	"cooldown": 18.0,
+	"duration": 8.0,
+	"skill": "arendeth_acid_magic",
+	"slots": {
+		"utility": 2,
+		"defensive": 2
+	},
+	"animation": "acid_magic_alembic_ward_fx",
+	"image": 2
 }

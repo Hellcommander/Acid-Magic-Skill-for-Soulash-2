@@ -21,7 +21,7 @@
 		"magic_power_damage": 1.0,
 		"pierce": 1,
 		"poison_effect": 1,
-		"turn_damage_to_stacks": "arendeth_acid_magic_Corrosion"
+		"turn_damage_to_stacks": "arendeth_acid_magic_corrosion"
 	},
 	"id": "arendeth_acid_magic_Thermotoxic_Spray",
 	"image": 136,

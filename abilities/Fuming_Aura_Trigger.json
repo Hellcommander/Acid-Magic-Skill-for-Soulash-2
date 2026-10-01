@@ -1,36 +1,38 @@
 {
-    "id": "acid_magic_fuming_aura_trigger",
-    "name": "Fuming Aura Trigger",
-    "description": "Caustic vapors pulse outward, dealing ::damage ::damage_type, applying Corrosion, weakening armor, and stinging eyes.",
-    "target": "aoe_self",
-    "range": 0,
-    "effects": {
-        "damage": [3, 6],
-        "damage_type": "acid",
-        "stacker_count": 1,
-        "aoe_range": 2,
-        "aoe_shape": 1,
-        "magic_power_damage": 0.7,
-
-        "aoe_break": 1,
-        "hit_chance": -1,
-        "resistance": -2
-    },
-    "effects_keys": {
-        "stacker": "arendeth_acid_magic_Corrosion"
-    },
-    "cost": {
-        "health": 0,
-        "stamina": 0
-    },
-    "slots": {
-        "offensive": 1,
-        "utility": 2
-    },
-    "skill": "arendeth_acid_magic",
-    "cast_time": 1.0,
-    "cooldown": 0.0,
-    "duration": 5,
-    "animation": "acid_magic_fuming_aura_trigger_fx",
-    "image": 1
+	"id": "acid_magic_fuming_aura_trigger",
+	"name": "Fuming Aura Trigger",
+	"description": "Caustic vapors pulse outward, dealing ::damage ::damage_type, applying Corrosion, weakening armor, and stinging eyes.",
+	"target": "aoe_self",
+	"range": 0,
+	"effects": {
+		"damage": [
+			3,
+			6
+		],
+		"damage_type": "acid",
+		"stacker_count": 1,
+		"aoe_range": 2,
+		"aoe_shape": 1,
+		"magic_power_damage": 0.7,
+		"aoe_break": 1,
+		"hit_chance": -1,
+		"resistance": -2
+	},
+	"effects_keys": {
+		"stacker": "arendeth_acid_magic_corrosion"
+	},
+	"cost": {
+		"health": 0,
+		"stamina": 0
+	},
+	"slots": {
+		"offensive": 1,
+		"utility": 2
+	},
+	"skill": "arendeth_acid_magic",
+	"cast_time": 1.0,
+	"cooldown": 0.0,
+	"duration": 5,
+	"animation": "acid_magic_fuming_aura_trigger_fx",
+	"image": 1
 }

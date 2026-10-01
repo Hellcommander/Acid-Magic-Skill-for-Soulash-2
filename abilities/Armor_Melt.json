@@ -1,28 +1,31 @@
 {
-    "id": "acid_magic_armor_melt",
-    "name": "Armor Melt",
-    "description": "Dissolve armor and expose flesh. Deals ::damage ::damage_type, applies Vulnerable, and corrodes physical armor. Socket Volatile Catalyst to consume Corrosion.",
-    "target": "health",
-    "range": 4,
-    "effects": {
-        "damage": [3, 6],
-        "damage_type": "acid",
-        "vulnerable": 1,
-        "armor_break": 1,
-        "magic_power_damage": 0.8
-    },
-    "cost": {
-        "health": 0,
-        "stamina": 8
-    },
-    "cast_time": 0.8,
-    "cooldown": 10.0,
-    "skill": "arendeth_acid_magic",
-    "slots": {
-        "offensive": 1,
-        "utility": 1
-    },
-    "duration": 0.0,
-    "animation": "acid_magic_armor_melt_fx",
-    "image": 6
+	"animation": "acid_magic_armor_melt_fx",
+	"cast_time": 0.800000011920929,
+	"cooldown": 10.0,
+	"cost": {
+		"health": 0,
+		"stamina": 8
+	},
+	"description": "Dissolve armor and expose flesh. Deals ::damage ::damage_type, applies Vulnerable, and corrodes physical armor. Socket Volatile Catalyst to consume Corrosion",
+	"duration": 6.0,
+	"effects": {
+		"break_armor": 3,
+		"damage": [
+			4,
+			7
+		],
+		"damage_type": "acid",
+		"effect_per_stack": "arendeth_acid_magic_corrosion",
+		"vulnerable": 1
+	},
+	"id": "arendeth_acid_magic_Armor_Melt",
+	"image": 6,
+	"name": "Armor Melt",
+	"range": 5,
+	"skill": "arendeth_acid_magic",
+	"slots": {
+		"offensive": 2,
+		"utility": 2
+	},
+	"target": "health"
 }
