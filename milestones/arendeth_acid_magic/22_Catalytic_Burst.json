@@ -1,0 +1,16 @@
+{
+	"id": "acid_magic_catalytic_burst",
+	"name": "Catalytic Burst",
+	"requirements": {
+		"milestones": [],
+		"skill": 22
+	},
+	"rewards": [
+		{
+			"passive": "acid_magic_catalytic_burst"
+		}
+	],
+	"skill_id": "arendeth_acid_magic",
+	"steps": [],
+	"steps_type": 0
+}

@@ -32,14 +32,72 @@
 		]
 	},
 	{
+		"id": "acid_magic_chain_reaction",
+		"name": "Chain Reaction",
+		"image": 1,
+		"effects": [
+			{
+				"effect": "poison_transfer_on_kill",
+				"value": 2
+			}
+		]
+	},
+	{
+		"id": "acid_magic_catalytic_burst",
+		"name": "Catalytic Burst",
+		"image": 1,
+		"effects": [
+			{
+				"effect": "on_attack_cast",
+				"value": "acid_magic_acid_dart"
+			}
+		]
+	},
+	{
+		"id": "acid_magic_lingering_corrosion",
+		"name": "Lingering Corrosion",
+		"image": 1,
+		"effects": [
+			{
+				"effect": "ability_extend_duration",
+				"value": "arendeth_acid_magic_Thermotoxic_Spray",
+				"secondary_value": 1
+			}
+		]
+	},
+	{
+		"id": "acid_magic_corrosive_exposure",
+		"name": "Corrosive Exposure",
+		"image": 3,
+		"effects": [
+			{
+				"effect": "target_resistance",
+				"value": "acid",
+				"secondary_value": -0.15
+			}
+		]
+	},
+	{
+		"id": "acid_magic_tissue_degradation",
+		"name": "Tissue Degradation",
+		"image": 4,
+		"effects": [
+			{
+				"effect": "bleed_per_damage",
+				"value": "acid",
+				"secondary_value": 0.05
+			}
+		]
+	},
+	{
 		"id": "acid_magic_corrosive_primer",
 		"name": "Corrosive Primer",
 		"image": 1,
 		"effects": [
 			{
-				"effect": "on_damage_type_stack",
-				"value": "arendeth_acid_magic_Corrosion",
-				"secondary_value": "acid"
+				"effect": "apply_chance",
+				"value": "stacker":"arendeth_acid_magic_Corrosion",
+				"secondary_value": 0.25
 			}
 		]
 	},
@@ -48,16 +106,8 @@
 		"name": "Lab Safety",
 		"image": 2,
 		"effects": [
-			{
-				"effect": "heal_on_damage_type",
-				"value": "acid",
-				"secondary_value": 0.25
-			},
-			{
-				"effect": "damage_type_reduction",
-				"value": "acid",
-				"secondary_value": 0.2
-			}
+			{ "effect": "heal_on_damage_type", "value": "acid", "secondary_value": 0.10 },
+			{ "effect": "damage_type_reduction", "value": "acid", "secondary_value": 0.20 }
 		]
 	},
 	{
@@ -65,10 +115,8 @@
 		"name": "Chemical Recycling",
 		"image": 3,
 		"effects": [
-			{
-				"effect": "stamina_on_stack_consume",
-				"value": "arendeth_acid_magic_Corrosion"
-			}
+			{ "effect": "stamina_on_stack_consume", "value": "arendeth_acid_magic_Corrosion", "secondary_value": 6 },
+			{ "effect": "reduce_next_ritual_cost_percent", "value": "crafting_reagents", "secondary_value": 0.10 }
 		]
 	},
 	{
@@ -77,8 +125,9 @@
 		"image": 4,
 		"effects": [
 			{
-				"effect": "on_attack_stack",
-				"value": "acid_magic_catalysis"
+				"effect": "apply_chance",
+				"value": "cast_ability_on_hit":"acid_magic_catalysis",
+				"secondary_value": 0.15
 			}
 		]
 	},
@@ -87,16 +136,8 @@
 		"name": "Acidara Reagent",
 		"image": 5,
 		"effects": [
-			{
-				"effect": "bonus_damage",
-				"value": 3,
-				"secondary_value": "acid"
-			},
-			{
-				"effect": "target_resistance",
-				"value": "acid",
-				"secondary_value": -0.2
-			}
+			{ "effect": "damage_percent", "value": "acid", "secondary_value": 0.12 },
+			{ "effect": "target_resistance", "value": "acid", "secondary_value": -0.20 }
 		]
 	}
 ]

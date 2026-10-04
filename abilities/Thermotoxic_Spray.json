@@ -24,7 +24,7 @@
 		"turn_damage_to_stacks": "arendeth_acid_magic_corrosion"
 	},
 	"id": "arendeth_acid_magic_Thermotoxic_Spray",
-	"image": 136,
+	"image": 1,
 	"min_range": 1,
 	"name": "Thermotoxic Spray",
 	"range": 5,

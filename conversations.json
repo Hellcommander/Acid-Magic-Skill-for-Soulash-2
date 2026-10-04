@@ -1,72 +1,136 @@
 {
   "conversations": [
     {
-      "answer_negative": "If you fear corrosion, best keep your distance.",
-      "answer_positive": "Ah… another seeker of dissolution. Step carefully.",
+      "id": "astral_begin",
+      "type": "begin_conversation",
       "entities": [
-        "arendeth_acid_magic_Acid_Savant",
-        "arendeth_acid_magic_Caustic_Alchemist",
-        "arendeth_acid_magic_Catalytic_Scholar"
+        "arendeth_astral_magic_Astral_Savant",
+        "arendeth_astral_magic_Undead_Astral_Adapt",
+        "arendeth_astral_magic_Astral_Adapt_Rogue"
       ],
-      "id": "acid_begin",
+      "text": "Greetings.",
+      "answer_positive": "What do you need?",
+      "answer_negative": "Now is not a good time.",
       "options": [
-        "acid_directions",
-        "acid_ask_trainer",
-        "acid_hire",
-        "acid_train",
-        "core_2_marry_1",
-        "core_2_marry_2",
-        "acid_exit"
-      ],
-      "text": "",
-      "type": "begin_conversation"
+        "astral_trade",
+        "astral_train",
+        "astral_order",
+        "astral_directions",
+        "astral_company_order",
+        "astral_ask_trainer",
+        "astral_special_locations",
+        "astral_rumour",
+        "astral_hire",
+        "astral_back",
+        "astral_exit"
+      ]
     },
+
     {
-      "id": "acid_exit",
-      "text": "Mind your footing. Some puddles bite.",
-      "type": "exit"
-    },
-    {
-      "id": "acid_back",
-      "text": "(return to the caustic discussion)",
-      "type": "back_to_main"
-    },
-    {
-      "answer_negative": "Your structure is unstable. I cannot refine you further.",
-      "answer_positive": "Seeking to strengthen your catalytic potential?",
-      "id": "acid_train",
+      "id": "astral_trade",
+      "type": "trade",
+      "text": "Trade goods.",
+      "answer_positive": "I hope everything is to your satisfaction.",
       "options": [
-        "acid_back"
-      ],
+        "astral_back"
+      ]
+    },
+
+    {
+      "id": "astral_train",
+      "type": "train",
       "text": "Ask for training.",
-      "type": "train"
-    },
-    {
-      "answer_positive": "A companion? I can prepare one… though they may drip.",
-      "id": "acid_hire",
+      "answer_positive": "Well, if you help out and pay for my time, I could teach you a trick or two.",
+      "answer_negative": "I don't think there's anything I can teach you.",
       "options": [
-        "acid_back"
-      ],
-      "text": "Hire to party.",
-      "type": "hire_to_party"
+        "astral_back"
+      ]
     },
+
     {
-      "answer_positive": "Where do you wish to flow?",
-      "id": "acid_directions",
+      "id": "astral_order",
+      "type": "order",
+      "text": "Order a product.",
+      "answer_positive": "Come back when it's ready.",
       "options": [
-        "acid_back"
-      ],
+        "astral_back"
+      ]
+    },
+
+    {
+      "id": "astral_directions",
+      "type": "directions",
       "text": "Ask for directions.",
-      "type": "directions"
-    },
-    {
-      "answer_positive": "Which practitioner do you seek? The town has several… each with their own preferred reagents.",
-      "id": "acid_ask_trainer",
+      "answer_positive": "Where do you want to go?",
       "options": [
-        "acid_back"
-      ],
+        "astral_back"
+      ]
+    },
+
+    {
+      "id": "astral_company_order",
+      "type": "company_order",
+      "text": "Ask for company orders.",
+      "answer_positive": "We are in need of some new equipment.",
+      "answer_negative": "We're geared well enough for now.",
+      "options": [
+        "astral_back"
+      ]
+    },
+
+    {
+      "id": "astral_ask_trainer",
+      "type": "ask_trainers",
       "text": "Ask for trainers in town.",
-      "type": "ask_trainers"
+      "answer_positive": "What are you looking for?",
+      "options": [
+        "astral_back"
+      ]
+    },
+
+    {
+      "id": "astral_special_locations",
+      "type": "special_locations",
+      "text": "Ask for anything interesting nearby.",
+      "answer_positive": "I heard rumours of these places.",
+      "answer_negative": "I haven't heard of any such place.",
+      "options": [
+        "astral_back"
+      ]
+    },
+
+    {
+      "id": "astral_rumour",
+      "type": "rumour",
+      "text": "Ask about rumours.",
+      "answer_positive": "Aye, quite a sight to see indeed. We've recently had an ::event. I heard that ::event_description.",
+      "answer_negative": "Hmm... I don't think so, friend.",
+      "options": [
+        "astral_back"
+      ]
+    },
+
+    {
+      "id": "astral_hire",
+      "type": "hire_to_party",
+      "text": "Hire this companion.",
+      "answer_positive": "I can join you.",
+      "answer_negative": "Not today.",
+      "options": [
+        "astral_back"
+      ]
+    },
+
+    {
+      "id": "astral_back",
+      "type": "back_to_main",
+      "text": "Go back."
+    },
+
+    {
+      "id": "astral_exit",
+      "type": "exit",
+      "text": "Leave."
     }
   ]
 }

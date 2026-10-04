@@ -1,0 +1,16 @@
+{
+	"id": "acid_magic_lingering_corrosion",
+	"name": "Lingering Corrosion",
+	"requirements": {
+		"milestones": [],
+		"skill": 36
+	},
+	"rewards": [
+		{
+			"passive": "acid_magic_lingering_corrosion"
+		}
+	],
+	"skill_id": "arendeth_acid_magic",
+	"steps": [],
+	"steps_type": 0
+}

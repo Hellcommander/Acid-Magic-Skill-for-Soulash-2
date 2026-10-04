@@ -1,0 +1,16 @@
+{
+	"id": "acid_magic_chain_reaction",
+	"name": "Chain Reaction",
+	"requirements": {
+		"milestones": [],
+		"skill": 20
+	},
+	"rewards": [
+		{
+			"passive": "acid_magic_chain_reaction"
+		}
+	],
+	"skill_id": "arendeth_acid_magic",
+	"steps": [],
+	"steps_type": 0
+}
