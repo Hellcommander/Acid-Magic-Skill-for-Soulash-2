@@ -1,16 +1,16 @@
 [
-{
-  "id": "acid_magic_mastery",
-  "name": "Acid Magic Mastery",
-  "image": 0,
-  "effects": [
-    { "effect": "statistic", "value": "strength", "secondary_value": 9 },
-    { "effect": "statistic", "value": "dexterity", "secondary_value": 9 },
-    { "effect": "statistic", "value": "endurance", "secondary_value": 9 },
-    { "effect": "statistic", "value": "intelligence", "secondary_value": 9 },
-    { "effect": "statistic", "value": "willpower", "secondary_value": 9 }
-  ]
-},
+	{
+		"id": "acid_magic_mastery",
+		"name": "Acid Magic Mastery",
+		"image": 0,
+		"effects": [
+			{ "effect": "statistic", "value": "strength", "secondary_value": 9 },
+			{ "effect": "statistic", "value": "dexterity", "secondary_value": 9 },
+			{ "effect": "statistic", "value": "endurance", "secondary_value": 9 },
+			{ "effect": "statistic", "value": "intelligence", "secondary_value": 9 },
+			{ "effect": "statistic", "value": "willpower", "secondary_value": 9 }
+		]
+	},
 	{
 		"id": "acid_magic_chain_reaction",
 		"name": "Chain Reaction",
@@ -18,7 +18,7 @@
 		"effects": [
 			{
 				"effect": "poison_transfer_on_kill",
-				"value": 2
+				"value": 1
 			}
 		]
 	},
@@ -28,8 +28,8 @@
 		"image": 1,
 		"effects": [
 			{
-				"effect": "on_attack_cast",
-				"value": "acid_magic_acid_dart",
+				"effect": "apply_chance",
+				"value": "on_attack_cast:acid_magic_acid_dart",
 				"secondary_value": 0.3
 			}
 		]
@@ -38,13 +38,22 @@
 		"id": "acid_magic_lingering_corrosion",
 		"name": "Lingering Corrosion",
 		"image": 1,
-		"effects": [
-			{
-				"effect": "ability_extend_duration",
-				"value": "arendeth_acid_magic_Thermotoxic_Spray",
-				"secondary_value": 1
-			}
+        "effects": [
+            { "effect": "ability_extend_duration", "value": "acid_magic_etch", "secondary_value": 1 },
+            { "effect": "ability_extend_duration", "value": "arendeth_acid_magic_cryothermic_catalyst", "secondary_value": 1 },
+            { "effect": "ability_extend_duration", "value": "acid_magic_hemolysis", "secondary_value": 1 },
+            { "effect": "ability_extend_duration", "value": "acid_magic_fuming_aura_trigger", "secondary_value": 1 },
+            { "effect": "ability_extend_duration", "value": "acid_magic_neutralize", "secondary_value": 1 },
+            { "effect": "ability_extend_duration", "value": "acid_magic_volatile_reaction", "secondary_value": 1 },
+            { "effect": "ability_extend_duration", "value": "arendeth_acid_magic_Armor_Melt", "secondary_value": 1 },
+            { "effect": "ability_extend_duration", "value": "acid_magic_alembic_ward", "secondary_value": 1 },
+            { "effect": "ability_extend_duration", "value": "acid_magic_fuming_aura", "secondary_value": 1 },
+            { "effect": "ability_extend_duration", "value": "acid_magic_acid_dart", "secondary_value": 1 },
+            { "effect": "ability_extend_duration", "value": "arendeth_acid_magic_Acid_Gag", "secondary_value": 1 },
+            { "effect": "ability_extend_duration", "value": "acid_magic_thermotoxic_spray", "secondary_value": 1 },
+            { "effect": "ability_extend_duration", "value": "acid_magic_acid_pool", "secondary_value": 1 }
 		]
+		
 	},
 	{
 		"id": "acid_magic_corrosive_exposure",
@@ -64,9 +73,9 @@
 		"image": 4,
 		"effects": [
 			{
-				"effect": "bleed_per_damage",
-				"value": "acid",
-				"secondary_value": 0.05
+				"effect": "damage_per_stacks",
+				"value": "bleed",
+				"secondary_value": 0.5
 			}
 		]
 	},
@@ -107,8 +116,9 @@
 		"effects": [
 			{
 				"effect": "apply_chance",
-				"value": "cast_ability_on_hit":"acid_magic_catalysis",
+				"value": "cast_ability_on_hit:acid_magic_catalysis",
 				"secondary_value": 0.15
+				
 			}
 		]
 	},

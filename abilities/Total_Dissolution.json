@@ -28,7 +28,7 @@
 		"offensive": 1,
 		"utility": 1
 	},
-	"duration": 0.0,
+	"duration": 1.0,
 	"animation": "acid_magic_total_dissolution_fx",
 	"image": 3,
 	"_file": "Total_Dissolution.json"
