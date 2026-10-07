@@ -96,7 +96,7 @@
 		"effects": [
 			{
 				"effect": "apply_chance",
-				"value": "stacker":"arendeth_acid_magic_Corrosion",
+				"value": "arendeth_acid_magic_Corrosion",
 				"secondary_value": 0.25
 			}
 		]

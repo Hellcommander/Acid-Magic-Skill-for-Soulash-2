@@ -14,21 +14,21 @@
   "group": "military",
   "allow_player": true,
 
-  "occupation": "457",
+  "occupation": "Erosion_Magus",
   "occupation_per_race": {
-    "0": "457",
-    "1": "core_2_Dwarf_Wizard",
-    "2": "core_2_Elf_Wizard",
-    "4": "core_2_Goblin_Wizard",
-    "6": "core_2_Vampire_Wizard",
-    "7": "core_2_Troll_Wizard",
-    "8": "core_2_Orc_Wizard",
-    "10": "core_2_Rasimi_Wizard",
-    "23": "core_2_Reptilion_Wizard",
-    "26": "core_2_Bone_Wraith_Wizard",
-    "31": "core_2_Gnoll_Wizard",
-    "32": "core_2_Mushman_Wizard",
-    "33": "core_2_Ursan_Wizard"
+    "0": "Erosion_Magus",
+    "1": "Erosion_Magus",
+    "2": "Erosion_Magus",
+    "4": "Erosion_Magus",
+    "6": "Erosion_Magus",
+    "7": "Erosion_Magus",
+    "8": "Erosion_Magus",
+    "10": "Erosion_Magus",
+    "23": "Erosion_Magus",
+    "26": "Erosion_Magus",
+    "31": "Erosion_Magus",
+    "32": "Erosion_Magus",
+    "33": "Erosion_Magus"
   },
 
   "race": -1,
@@ -59,7 +59,7 @@
     },
     {
       "component": "container",
-      "count": 6
+      "count": 1
     },
     {
       "component": "light_source",

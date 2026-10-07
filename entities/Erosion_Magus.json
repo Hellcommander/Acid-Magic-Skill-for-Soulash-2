@@ -2,7 +2,9 @@
 	"ability_user": [],
 	"artificial_intelligence": {
 		"allies": [
-			"7"
+			"9",
+			"4",
+			"5"
 		],
 		"allow_production": [
 			"19",
@@ -40,33 +42,17 @@
 		"tags"
 	],
 	"corpse": "322",
-	"description": "",
+	"description": "An Erosion Magus is an alchemical combatant who weaponizes dissolution.  By combining acidic spell formulas with volatile reagents, they accelerate natural decay, corrode armor, and destabilize living tissue. Their craft is built on the principle that everything—metal, stone, flesh, or magic—can be broken down with the right mixture of catalysts.",
 	"dialogues": [
 		"722",
 		"77"
 	],
 	"equipment": {
-		"backpack": [
-			{
-				"chance": 1.0,
-				"id": "100",
-				"name": "Javelin",
-				"stack": 10
-			}
-		],
-		"left_hand": [
-			{
-				"chance": 1.0,
-				"id": "core_2_Ice_Rod",
-				"name": "Ice Rod",
-				"stack": 1
-			}
-		],
 		"right_hand": [
 			{
 				"chance": 1.0,
-				"id": "100",
-				"name": "Javelin",
+				"id": "339",
+				"name": "Witch Staff",
 				"stack": 1
 			}
 		],
@@ -100,7 +86,7 @@
 		],
 		"random_frame_start": false
 	},
-	"health": 225,
+	"health": 350,
 	"humanoid": {
 		"race": "2"
 	},
@@ -115,7 +101,7 @@
 	},
 	"name": "Erosion Magus",
 	"persona": {
-		"occupation": "Erosion Magus"
+		"occupation": "Erosion_Magus"
 	},
 	"sight": {
 		"ignore_infra_penalty": false,
@@ -126,9 +112,37 @@
 	"skills": {
 		"max_skill": 10,
 		"milestones": [
+			"acid_magic_acid_dart",
+			"acid_magic_acidara_reagent",
+			"acid_magic_acidaras_brand",
+			"acid_magic_alembic_ward",
+			"acid_magic_alkali_crash",
+			"acid_magic_book_of_acid_magic",
+			"acid_magic_corrosive_coating",
+			"acid_magic_etch_reach",
+			"acid_magic_lab_safety",
+			"acid_magic_neutralizing_salts",
+			"acid_magic_sting",
+			"acid_magic_tissue_degradation",
+			"arendeth_acid_magic_Thermotoxic_Spray",
+			"core_2_alchemic_fire",
+			"core_2_dust_bomb",
+			"core_2_cleansing_potion",
+			"core_2_antidote_vial",
+			"arendeth_acid_magic_Acid_Gag",
+			"core_2_little_alchemist",
+			"arendeth_acid_magic_Armor_Melt",
+			"core_2_better_sight",
+			"core_2_fertility_potion",
+			"acid_magic_fume_kiss",
+			"core_2_haste_potion",
+			"core_2_shrapnel_bomb",
+			"core_2_emty_vial"
 		],
 		"min_skill": 10,
 		"skills": [
+			"arendeth_acid_magic",
+			"core_2_alchemy"
 		]
 	},
 	"stamina": {
