@@ -1,36 +1,16 @@
 [
-	{
-		"id": "acid_magic_mastery",
-		"name": "Acid Magic Mastery",
-		"image": 0,
-		"effects": [
-			{
-				"effect": "statistic_percent",
-				"value": "strength",
-				"secondary_value": 0.1
-			},
-			{
-				"effect": "statistic_percent",
-				"value": "dexterity",
-				"secondary_value": 0.1
-			},
-			{
-				"effect": "statistic_percent",
-				"value": "endurance",
-				"secondary_value": 0.1
-			},
-			{
-				"effect": "statistic_percent",
-				"value": "intelligence",
-				"secondary_value": 0.1
-			},
-			{
-				"effect": "statistic_percent",
-				"value": "willpower",
-				"secondary_value": 0.1
-			}
-		]
-	},
+{
+  "id": "acid_magic_mastery",
+  "name": "Acid Magic Mastery",
+  "image": 0,
+  "effects": [
+    { "effect": "statistic", "value": "strength", "secondary_value": 9 },
+    { "effect": "statistic", "value": "dexterity", "secondary_value": 9 },
+    { "effect": "statistic", "value": "endurance", "secondary_value": 9 },
+    { "effect": "statistic", "value": "intelligence", "secondary_value": 9 },
+    { "effect": "statistic", "value": "willpower", "secondary_value": 9 }
+  ]
+},
 	{
 		"id": "acid_magic_chain_reaction",
 		"name": "Chain Reaction",
@@ -49,7 +29,8 @@
 		"effects": [
 			{
 				"effect": "on_attack_cast",
-				"value": "acid_magic_acid_dart"
+				"value": "acid_magic_acid_dart",
+				"secondary_value": 0.3
 			}
 		]
 	},
@@ -73,7 +54,7 @@
 			{
 				"effect": "target_resistance",
 				"value": "acid",
-				"secondary_value": -0.15
+				"secondary_value": -0.1
 			}
 		]
 	},
@@ -137,7 +118,7 @@
 		"image": 5,
 		"effects": [
 			{ "effect": "damage_percent", "value": "acid", "secondary_value": 0.12 },
-			{ "effect": "target_resistance", "value": "acid", "secondary_value": -0.20 }
+			{ "effect": "target_resistance", "value": "acid", "secondary_value": -0.15 }
 		]
 	}
 ]
