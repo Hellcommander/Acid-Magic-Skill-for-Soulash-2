@@ -3,73 +3,13 @@
   "name": "Vitriol Laboratory",
   "image": 39,
   "occupation_image": 74,
-
-  "enables": [
-    "arendeth_acid_magic"
-  ],
-
   "max": 1,
   "tier": 3,
   "type": "military",
   "group": "military",
   "allow_player": true,
-
   "occupation": "Erosion_Magus",
-  "occupation_per_race": {
-    "0": "Erosion_Magus",
-    "1": "Erosion_Magus",
-    "2": "Erosion_Magus",
-    "4": "Erosion_Magus",
-    "6": "Erosion_Magus",
-    "7": "Erosion_Magus",
-    "8": "Erosion_Magus",
-    "10": "Erosion_Magus",
-    "23": "Erosion_Magus",
-    "26": "Erosion_Magus",
-    "31": "Erosion_Magus",
-    "32": "Erosion_Magus",
-    "33": "Erosion_Magus"
-  },
-
-  "race": -1,
-
+  "race": "-1",
   "workers": [1, 6],
-
-  "produces": [
-    {
-      "takes": "craftable",
-      "entities": [
-        { "id": "2006", "daily": 0.2 }
-      ]
-    }
-  ],
-
-  "required_entities": [
-    {
-      "entities": ["731"],
-      "count": 4
-    },
-    {
-      "entities": ["291", "537"],
-      "count": 4
-    },
-    {
-      "component": "resting_place",
-      "count": 6
-    },
-    {
-      "component": "container",
-      "count": 1
-    },
-    {
-      "component": "light_source",
-      "count": 4
-    },
-    {
-      "component": "crafting_station",
-      "count": 2
-    }
-  ],
-
   "min_area": 40
 }
