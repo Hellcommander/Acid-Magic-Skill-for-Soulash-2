@@ -42,7 +42,7 @@
 		"tags"
 	],
 	"corpse": "322",
-	"description": "An Erosion Magus is an alchemical combatant who weaponizes dissolution.  By combining acidic spell formulas with volatile reagents, they accelerate natural decay, corrode armor, and destabilize living tissue. Their craft is built on the principle that everything—metal, stone, flesh, or magic—can be broken down with the right mixture of catalysts.",
+	"description": "An Erosion Magus is an alchemical combatant who weaponizes dissolution.  By combining acidic spell formulas with volatile reagents, they accelerate natural decay, corrode armor, and destabilize living tissue. Their craft is built on the principle that everything - metal, stone, flesh, or magic - can be broken down with the right mixture of catalysts.",
 	"dialogues": [
 		"722",
 		"77"
@@ -76,12 +76,12 @@
 		"frames": [
 			{
 				"color": [
-					127,
-					185,
-					85
+					255,
+					255,
+					255
 				],
 				"delay": 0,
-				"index": 148
+				"index": 3
 			}
 		],
 		"random_frame_start": false

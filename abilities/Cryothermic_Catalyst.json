@@ -21,7 +21,7 @@
 		"magic_power_damage": 1.0
 	},
 	"id": "arendeth_acid_magic_cryothermic_catalyst",
-	"image": 623,
+	"image": 8,
 	"name": "Cryothermic Catalyst",
 	"range": 0,
 	"skill": "arendeth_acid_magic",

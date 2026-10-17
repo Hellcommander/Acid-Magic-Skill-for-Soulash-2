@@ -4,12 +4,33 @@
 		"name": "Acid Magic Mastery",
 		"image": 0,
 		"effects": [
-			{ "effect": "statistic", "value": "strength", "secondary_value": 9 },
-			{ "effect": "statistic", "value": "dexterity", "secondary_value": 9 },
-			{ "effect": "statistic", "value": "endurance", "secondary_value": 9 },
-			{ "effect": "statistic", "value": "intelligence", "secondary_value": 9 },
-			{ "effect": "statistic", "value": "willpower", "secondary_value": 9 }
-		]
+			{
+				"effect": "statistic",
+				"value": "strength",
+				"secondary_value": 9
+			},
+			{
+				"effect": "statistic",
+				"value": "dexterity",
+				"secondary_value": 9
+			},
+			{
+				"effect": "statistic",
+				"value": "endurance",
+				"secondary_value": 9
+			},
+			{
+				"effect": "statistic",
+				"value": "intelligence",
+				"secondary_value": 9
+			},
+			{
+				"effect": "statistic",
+				"value": "willpower",
+				"secondary_value": 9
+			}
+		],
+		"description": "+9 to all attributes. Stacks with other combat-branch masteries."
 	},
 	{
 		"id": "acid_magic_chain_reaction",
@@ -20,40 +41,94 @@
 				"effect": "poison_transfer_on_kill",
 				"value": 1
 			}
-		]
+		],
+		"description": "When a poisoned enemy dies its poison spreads to a nearby enemy."
 	},
 	{
 		"id": "acid_magic_catalytic_burst",
 		"name": "Catalytic Burst",
-		"image": 1,
+		"image": 6,
 		"effects": [
 			{
 				"effect": "apply_chance",
 				"value": "on_attack_cast:acid_magic_acid_dart",
 				"secondary_value": 0.3
 			}
-		]
+		],
+		"description": "30% chance on attack to cast Acid Dart."
 	},
 	{
 		"id": "acid_magic_lingering_corrosion",
 		"name": "Lingering Corrosion",
-		"image": 1,
-        "effects": [
-            { "effect": "ability_extend_duration", "value": "acid_magic_etch", "secondary_value": 1 },
-            { "effect": "ability_extend_duration", "value": "arendeth_acid_magic_cryothermic_catalyst", "secondary_value": 1 },
-            { "effect": "ability_extend_duration", "value": "acid_magic_hemolysis", "secondary_value": 1 },
-            { "effect": "ability_extend_duration", "value": "acid_magic_fuming_aura_trigger", "secondary_value": 1 },
-            { "effect": "ability_extend_duration", "value": "acid_magic_neutralize", "secondary_value": 1 },
-            { "effect": "ability_extend_duration", "value": "acid_magic_volatile_reaction", "secondary_value": 1 },
-            { "effect": "ability_extend_duration", "value": "arendeth_acid_magic_Armor_Melt", "secondary_value": 1 },
-            { "effect": "ability_extend_duration", "value": "acid_magic_alembic_ward", "secondary_value": 1 },
-            { "effect": "ability_extend_duration", "value": "acid_magic_fuming_aura", "secondary_value": 1 },
-            { "effect": "ability_extend_duration", "value": "acid_magic_acid_dart", "secondary_value": 1 },
-            { "effect": "ability_extend_duration", "value": "arendeth_acid_magic_Acid_Gag", "secondary_value": 1 },
-            { "effect": "ability_extend_duration", "value": "acid_magic_thermotoxic_spray", "secondary_value": 1 },
-            { "effect": "ability_extend_duration", "value": "acid_magic_acid_pool", "secondary_value": 1 }
-		]
-		
+		"image": 7,
+		"effects": [
+			{
+				"effect": "ability_extend_duration",
+				"value": "acid_magic_etch",
+				"secondary_value": 1
+			},
+			{
+				"effect": "ability_extend_duration",
+				"value": "arendeth_acid_magic_cryothermic_catalyst",
+				"secondary_value": 1
+			},
+			{
+				"effect": "ability_extend_duration",
+				"value": "acid_magic_hemolysis",
+				"secondary_value": 1
+			},
+			{
+				"effect": "ability_extend_duration",
+				"value": "acid_magic_fuming_aura_trigger",
+				"secondary_value": 1
+			},
+			{
+				"effect": "ability_extend_duration",
+				"value": "acid_magic_neutralize",
+				"secondary_value": 1
+			},
+			{
+				"effect": "ability_extend_duration",
+				"value": "acid_magic_volatile_reaction",
+				"secondary_value": 1
+			},
+			{
+				"effect": "ability_extend_duration",
+				"value": "arendeth_acid_magic_Armor_Melt",
+				"secondary_value": 1
+			},
+			{
+				"effect": "ability_extend_duration",
+				"value": "acid_magic_alembic_ward",
+				"secondary_value": 1
+			},
+			{
+				"effect": "ability_extend_duration",
+				"value": "acid_magic_fuming_aura",
+				"secondary_value": 1
+			},
+			{
+				"effect": "ability_extend_duration",
+				"value": "acid_magic_acid_dart",
+				"secondary_value": 1
+			},
+			{
+				"effect": "ability_extend_duration",
+				"value": "arendeth_acid_magic_Acid_Gag",
+				"secondary_value": 1
+			},
+			{
+				"effect": "ability_extend_duration",
+				"value": "acid_magic_thermotoxic_spray",
+				"secondary_value": 1
+			},
+			{
+				"effect": "ability_extend_duration",
+				"value": "acid_magic_acid_pool",
+				"secondary_value": 1
+			}
+		],
+		"description": "Acid Dart, Acid Gag, Acid Pool, Alembic Ward, Armor Melt, Cryothermic Catalyst and 7 more last 100% longer."
 	},
 	{
 		"id": "acid_magic_corrosive_exposure",
@@ -65,7 +140,8 @@
 				"value": "acid",
 				"secondary_value": -0.1
 			}
-		]
+		],
+		"description": "Enemies resist acid 10% less."
 	},
 	{
 		"id": "acid_magic_tissue_degradation",
@@ -77,58 +153,87 @@
 				"value": "bleed",
 				"secondary_value": 0.5
 			}
-		]
+		],
+		"description": "Each Bleed stack on the target adds 0.5 damage to your hits."
 	},
 	{
 		"id": "acid_magic_corrosive_primer",
 		"name": "Corrosive Primer",
-		"image": 1,
+		"image": 8,
 		"effects": [
 			{
 				"effect": "apply_chance",
 				"value": "arendeth_acid_magic_Corrosion",
 				"secondary_value": 0.25
 			}
-		]
+		],
+		"description": "25% chance to apply Magic Corrosion."
 	},
 	{
 		"id": "acid_magic_lab_safety",
 		"name": "Lab Safety",
 		"image": 2,
 		"effects": [
-			{ "effect": "heal_on_damage_type", "value": "acid", "secondary_value": 0.10 },
-			{ "effect": "damage_type_reduction", "value": "acid", "secondary_value": 0.20 }
-		]
+			{
+				"effect": "heal_on_damage_type",
+				"value": "acid",
+				"secondary_value": 0.1
+			},
+			{
+				"effect": "damage_type_reduction",
+				"value": "acid",
+				"secondary_value": 0.2
+			}
+		],
+		"description": "Heal for 10% of acid damage you take. 20% acid resistance."
 	},
 	{
 		"id": "acid_magic_chemical_recycling",
 		"name": "Chemical Recycling",
-		"image": 3,
+		"image": 9,
 		"effects": [
-			{ "effect": "stamina_on_stack_consume", "value": "arendeth_acid_magic_Corrosion", "secondary_value": 6 },
-			{ "effect": "reduce_next_ritual_cost_percent", "value": "crafting_reagents", "secondary_value": 0.10 }
-		]
+			{
+				"effect": "stamina_on_stack_consume",
+				"value": "arendeth_acid_magic_Corrosion",
+				"secondary_value": 6
+			},
+			{
+				"effect": "reduce_next_ritual_cost_percent",
+				"value": "crafting_reagents",
+				"secondary_value": 0.1
+			}
+		],
+		"description": "Consuming Magic Corrosion stacks restores 6 stamina each. Rituals cost 10% fewer crafting reagents."
 	},
 	{
 		"id": "acid_magic_catalytic_wake",
 		"name": "Catalytic Wake",
-		"image": 4,
+		"image": 10,
 		"effects": [
 			{
 				"effect": "apply_chance",
 				"value": "cast_ability_on_hit:acid_magic_catalysis",
 				"secondary_value": 0.15
-				
 			}
-		]
+		],
+		"description": "15% chance when you hit to cast Catalysis."
 	},
 	{
 		"id": "acid_magic_acidara_reagent",
 		"name": "Acidara Reagent",
 		"image": 5,
 		"effects": [
-			{ "effect": "damage_percent", "value": "acid", "secondary_value": 0.12 },
-			{ "effect": "target_resistance", "value": "acid", "secondary_value": -0.15 }
-		]
+			{
+				"effect": "damage_percent",
+				"value": "acid",
+				"secondary_value": 0.12
+			},
+			{
+				"effect": "target_resistance",
+				"value": "acid",
+				"secondary_value": -0.15
+			}
+		],
+		"description": "+12% acid damage. Enemies resist acid 15% less."
 	}
 ]

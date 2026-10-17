@@ -125,7 +125,7 @@
 				"value": 4
 			}
 		],
-		"image": 0,
+		"image": 8,
 		"description": "Burn 4 stamina from the target."
 	},
 	{
@@ -144,7 +144,7 @@
 				"secondary_value": "acid"
 			}
 		],
-		"image": 0,
+		"image": 9,
 		"duration": 10,
 		"description": "60% Reduces Acid Resistance + 10 duration + convert 60% of damage into Cryothermic Catalyst stacks (2 stamina burn, + 1 frostbite, 2-3 acid, can crit at a 15% chance and scales with magic power per stack)"
 	},
@@ -163,7 +163,7 @@
 				"secondary_value": 2
 			}
 		],
-		"image": 2,
+		"image": 10,
 		"description": "The solvent that eats gold. Increase area by 1 and apply 2 extra Corrosion."
 	},
 	{
@@ -178,7 +178,7 @@
 				"third_value": 0.25
 			}
 		],
-		"image": 3,
+		"image": 11,
 		"description": "If the target is Bleeding, consume it and heal 25 percent of that tick."
 	},
 	{
@@ -191,14 +191,14 @@
 				"value": "poison_effect"
 			}
 		],
-		"image": 4,
+		"image": 12,
 		"description": "Acid plus base. Consume Poison on the target when the socketed ability hits."
 	},
 	{
 		"id": "acid_magic_oleum",
 		"name": "Oleum",
 		"type": "offensive",
-		"image": 5,
+		"image": 13,
 		"description": "Fuming sulfuric. Socketed ability lasts 3 turns longer; the acid keeps eating.",
 		"duration": 3
 	},
@@ -212,7 +212,7 @@
 				"value": 1
 			}
 		],
-		"image": 6,
+		"image": 14,
 		"description": "A whiff of poison on the acid hit."
 	},
 	{
@@ -220,7 +220,7 @@
 		"name": "Etch Reach",
 		"type": "utility",
 		"bonuses": [],
-		"image": 7,
+		"image": 15,
 		"range": 1,
 		"description": "The jet stretches. +1 range."
 	},
@@ -234,7 +234,7 @@
 				"value": 2
 			}
 		],
-		"image": 0,
+		"image": 16,
 		"description": "The fumes steal 2 stamina."
 	},
 	{
@@ -242,7 +242,7 @@
 		"name": "Quick Pour",
 		"type": "utility",
 		"bonuses": [],
-		"image": 1,
+		"image": 17,
 		"cast_time": -0.1,
 		"description": "Unstopper faster. -0.1 cast time."
 	},
@@ -256,7 +256,7 @@
 				"value": 1
 			}
 		],
-		"image": 2,
+		"image": 18,
 		"description": "The jet kicks the target back 1 tile."
 	},
 	{
@@ -264,7 +264,7 @@
 		"name": "Drip",
 		"type": "utility",
 		"bonuses": [],
-		"image": 3,
+		"image": 19,
 		"description": "Wards, auras, and lingering acid last 1 turn longer.",
 		"duration": 1.0
 	},
@@ -272,7 +272,7 @@
 		"id": "acid_magic_dilute",
 		"name": "Dilute",
 		"type": "utility",
-		"image": 4,
+		"image": 20,
 		"cost_stamina": -1,
 		"description": "Thin the mixture so it costs 1 less stamina."
 	},
@@ -286,7 +286,7 @@
 				"value": 1
 			}
 		],
-		"image": 5,
+		"image": 21,
 		"description": "Deal 1 extra damage per stack"
 	}
 ]

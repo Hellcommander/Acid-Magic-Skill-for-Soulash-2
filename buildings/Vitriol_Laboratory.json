@@ -1,15 +1,28 @@
 {
-  "id": "acid_magic_hall",
-  "name": "Vitriol Laboratory",
-  "image": 39,
-  "occupation_image": 74,
-  "max": 1,
-  "tier": 3,
-  "type": "military",
-  "group": "military",
-  "allow_player": true,
-  "occupation": "Erosion_Magus",
-  "race": "-1",
-  "workers": [1, 6],
-  "min_area": 40
+	"id": "acid_magic_hall",
+	"name": "Vitriol Laboratory",
+	"image": 39,
+	"occupation_image": 74,
+	"max": 1,
+	"tier": 3,
+	"type": "military",
+	"group": "military",
+	"allow_player": true,
+	"occupation": "arendeth_acid_magic_Erosion_Magus",
+	"race": "-1",
+	"workers": [
+		1,
+		6
+	],
+	"min_area": 40,
+	"occupation_per_race": {
+		"2": "arendeth_acid_magic_Erosion_Magus",
+		"0": "arendeth_acid_magic_Erosion_Magus_Human",
+		"1": "arendeth_acid_magic_Erosion_Magus_Dwarf",
+		"4": "arendeth_acid_magic_Erosion_Magus_Goblin",
+		"7": "arendeth_acid_magic_Erosion_Magus_Troll",
+		"8": "arendeth_acid_magic_Erosion_Magus_Orc",
+		"23": "arendeth_acid_magic_Erosion_Magus_Reptilion",
+		"6": "arendeth_acid_magic_Erosion_Magus_Vampire"
+	}
 }

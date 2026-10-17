@@ -34,5 +34,5 @@
 	"cooldown": 0.0,
 	"duration": 5,
 	"animation": "acid_magic_fuming_aura_trigger_fx",
-	"image": 1
+	"image": 10
 }

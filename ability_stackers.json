@@ -4,31 +4,31 @@
 		"name": "Corrosion",
 		"image": 0,
 		"effects": [
-        {
-            "effect": "resistance",
-            "value": -2,
-            "third_value": "physical"
-        },
-        {
-            "effect": "resistance",
-            "value": -1,
-            "third_value": "acid"
-        },
-        {
-            "effect": "resistance",
-            "value": -1,
-            "third_value": "frost"
-        },
-        {
-            "effect": "resistance",
-            "value": -1,
-            "third_value": "nature"
-        },
-        {
-            "effect": "resistance",
-            "value": -2,
-            "third_value": "none"
-        }
+			{
+				"effect": "resistance",
+				"value": -2,
+				"third_value": "physical"
+			},
+			{
+				"effect": "resistance",
+				"value": -1,
+				"third_value": "acid"
+			},
+			{
+				"effect": "resistance",
+				"value": -1,
+				"third_value": "frost"
+			},
+			{
+				"effect": "resistance",
+				"value": -1,
+				"third_value": "nature"
+			},
+			{
+				"effect": "resistance",
+				"value": -2,
+				"third_value": "none"
+			}
 		],
 		"max_stacks": 999,
 		"duration": 8,
