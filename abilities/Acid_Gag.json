@@ -6,7 +6,7 @@
 		"health": 8,
 		"stamina": 0
 	},
-	"description": "Dissolve the breath from a caster. Deals ::damage ::damage_type, silences, +1 damage per stack and applies Corrosion.",
+	"description": "Dissolve the breath from a caster. Deals ::damage ::damage_type, silences, +1 damage per stack and applies Corrosion for ::duration turns.",
 	"duration": 2.0,
 	"effects": {
 		"damage": [

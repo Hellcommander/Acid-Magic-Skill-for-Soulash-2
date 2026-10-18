@@ -1,7 +1,7 @@
 {
 	"id": "acid_magic_acid_dart",
 	"name": "Acid Dart",
-	"description": "Hurl a vitriol dart. Deals ::damage ::damage_type and applies 1 Corrosion.",
+	"description": "Hurl a vitriol dart. Deals ::damage ::damage_type and applies 1 Corrosion for ::duration turns.",
 	"target": "health",
 	"range": 5,
 	"effects": {

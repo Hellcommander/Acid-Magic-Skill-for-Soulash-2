@@ -1,7 +1,7 @@
 {
 	"id": "acid_magic_acid_pool",
 	"name": "Acid Pool",
-	"description": "Pour caustic pools onto tiles. Deals ::damage ::damage_type damage, spawns acid puddles, and applies Corrosion.",
+	"description": "Pour caustic pools onto tiles. Deals ::damage ::damage_type damage, spawns acid puddles, and applies Corrosion for ::duration turns.",
 	"target": "aoe_tile",
 	"range": 6,
 	"effects": {

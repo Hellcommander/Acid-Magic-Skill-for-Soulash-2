@@ -1,7 +1,7 @@
 {
 	"id": "acid_magic_volatile_reaction",
 	"name": "Volatile Reaction",
-	"description": "Mix reagents and detonate. Deals acid damage in an area and applies Corrosion.",
+	"description": "Mix reagents and detonate. Deals acid damage in an area and applies Corrosion for ::duration turns.",
 	"target": "aoe_target",
 	"range": 6,
 	"effects": {
@@ -30,7 +30,7 @@
 		"offensive": 1,
 		"utility": 1
 	},
-	"duration": 0.0,
+	"duration": 1.0,
 	"animation": "acid_magic_volatile_reaction_fx",
 	"image": 14
 }

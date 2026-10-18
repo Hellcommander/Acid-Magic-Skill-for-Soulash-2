@@ -6,7 +6,7 @@
 		"health": 1,
 		"stamina": 5
 	},
-	"description": "Unleash a piercing cone of unstable acid that burns, bleeds, frostbites, and poisons on contact, dealing ::damage ::damage_type damage. The reaction converts damage dealt into Corrosion stacks, stripping armor and resistance from all affected targets.",
+	"description": "Unleash a piercing cone of unstable acid that burns, bleeds, frostbites, and poisons on contact for ::duration turns, dealing ::damage ::damage_type damage. The reaction converts damage dealt into Corrosion stacks, stripping armor and resistance from all affected targets.",
 	"duration": 4.0,
 	"effects": {
 		"bleed": 1,

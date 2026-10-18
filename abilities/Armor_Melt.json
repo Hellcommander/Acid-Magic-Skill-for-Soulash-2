@@ -6,10 +6,9 @@
 		"health": 0,
 		"stamina": 8
 	},
-	"description": "Dissolve armor and expose flesh. Deals ::damage ::damage_type, applies Vulnerable, and corrodes physical armor. Socket Volatile Catalyst to consume Corrosion",
+	"description": "Dissolve armor and expose flesh. Deals ::damage ::damage_type, applies Vulnerable, and corrodes physical armor for ::duration turns. Socket Volatile Catalyst to consume Corrosion",
 	"duration": 6.0,
 	"effects": {
-		"break_armor": 3,
 		"damage": [
 			4,
 			7

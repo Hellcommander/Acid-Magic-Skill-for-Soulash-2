@@ -6,7 +6,7 @@
 		"health": 0,
 		"stamina": 0
 	},
-	"description": "Trigger a volatile acid reaction that burns stamina and freezes flesh at once. Deals ::damage ::damage_type damage, scales with Magic, and can critically hit. The reaction leaves targets frostbitten and drained.",
+	"description": "Trigger a volatile acid reaction that burns stamina and freezes flesh at once for ::duration turns. Deals ::damage ::damage_type damage, scales with Magic, and can critically hit. The reaction leaves targets frostbitten and drained.",
 	"duration": 6.0,
 	"effects": {
 		"ability_can_crit": 1,

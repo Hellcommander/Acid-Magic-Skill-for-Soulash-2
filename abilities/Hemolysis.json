@@ -1,7 +1,7 @@
 {
 	"id": "acid_magic_hemolysis",
 	"name": "Hemolysis",
-	"description": "Acid meets blood. Consumes Bleed and deals ::damage ::damage_type, returning a fraction as life.",
+	"description": "Acid meets blood. Consumes Bleed and deals ::damage ::damage_type for ::duration turns, returning a fraction as life.",
 	"target": "health",
 	"range": 4,
 	"effects": {

@@ -1,7 +1,7 @@
 {
 	"id": "acid_magic_total_dissolution",
 	"name": "Total Dissolution",
-	"description": "Deals heavy acid damage, applies Corrosion (3) and Vulnerable (1). Corrosion increases damage taken and can be consumed by Runaway Reaction.",
+	"description": "Deals heavy acid damage, applies Corrosion (3) and Vulnerable (1). Corrosion increases damage taken and can be consumed by Runaway Reaction for ::duration turns.",
 	"target": "health",
 	"range": 6,
 	"effects": {
