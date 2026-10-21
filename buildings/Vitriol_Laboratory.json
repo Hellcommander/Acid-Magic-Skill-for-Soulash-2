@@ -1,20 +1,32 @@
 {
 	"id": "acid_magic_hall",
 	"name": "Vitriol Laboratory",
+	"enables": [
+		"arendeth_acid_magic"
+	],
 	"image": 39,
 	"occupation_image": 74,
 	"max": 1,
 	"tier": 3,
 	"type": "military",
-	"group": "military",
 	"allow_player": true,
 	"occupation": "arendeth_acid_magic_Erosion_Magus",
 	"race": "-1",
+	"produces": [
+		{
+			"entities": [
+				{
+					"daily": 0.2,
+					"id": "acid_magic_book_of_acid_magic"
+				}
+			],
+			"takes": "craftable"
+		}
+	],
 	"workers": [
 		1,
 		6
 	],
-	"min_area": 40,
 	"occupation_per_race": {
 		"2": "arendeth_acid_magic_Erosion_Magus",
 		"0": "arendeth_acid_magic_Erosion_Magus_Human",

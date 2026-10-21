@@ -1,5 +1,6 @@
 {
 	"author": "Arendeth",
+	"id": "arendeth_acid_magic",
 	"description": "Acid Magic uses magic created acid to weaken, dissolve, and detonate. Acid Magic is ideal for players who enjoy methodical buildup and armor shredding",
 	"game_required": "0.10.0",
 	"icon": "icon.png",
