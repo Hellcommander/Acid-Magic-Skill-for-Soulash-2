@@ -21,7 +21,7 @@
 		"magic_power_damage": 1.0,
 		"pierce": 1,
 		"poison_effect": 1,
-		"turn_damage_to_stacks": "arendeth_acid_magic_corrosion"
+		"stacker_count": 3
 	},
 	"id": "arendeth_acid_magic_Thermotoxic_Spray",
 	"image": 11,
@@ -33,5 +33,9 @@
 		"offensive": 3,
 		"utility": 2
 	},
-	"target": "cone"
+	"target": "cone",
+	"effects_keys": {
+		"turn_damage_to_stacks": "arendeth_acid_magic_corrosion",
+		"stacker": "arendeth_acid_magic_corrosion"
+	}
 }

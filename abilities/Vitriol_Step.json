@@ -1,12 +1,13 @@
 {
 	"id": "acid_magic_vitriol_step",
 	"name": "Vitriol Step",
-	"description": "Dash through caustic fumes toward a tile within range, gaining brief resistance for ::duration turns.",
+	"description": "Dash through caustic fumes toward a tile within range, gaining brief ::damage_type resistance for ::duration turns.",
 	"target": "tile",
 	"range": 6,
 	"effects": {
 		"ignore_party": 1,
 		"lunge": 4,
+		"damage_type": "acid",
 		"resistance": 20
 	},
 	"animation": "acid_magic_vitriol_step_fx",

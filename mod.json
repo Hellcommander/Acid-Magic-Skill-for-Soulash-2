@@ -1,7 +1,7 @@
 {
 	"author": "Arendeth",
 	"id": "arendeth_acid_magic",
-	"description": "Acid Magic uses magic created acid to weaken, dissolve, and detonate. Acid Magic is ideal for players who enjoy methodical buildup and armor shredding",
+	"description": "Acid Magic uses magic created acid to weaken, dissolve, and detonate. Acid Magic is ideal for players who enjoy methodical buildup and armor shredding\n\nImplemented with the aid of AI tools.\n\nSound effects created with NOISE ALCHEMY - NOISEALCHEMY.COM",
 	"game_required": "0.10.0",
 	"icon": "icon.png",
 	"mods_required": [

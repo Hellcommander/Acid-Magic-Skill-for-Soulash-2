@@ -58,5 +58,74 @@
 				"file": "assets/items.png"
 			}
 		]
+	},
+	"sounds": {
+		"combat": [
+			{
+				"id": "arendeth_acid_magic_acid_dart",
+				"name": "Acid Dart",
+				"file": "assets/sfx/acid_dart.ogg"
+			},
+			{
+				"id": "arendeth_acid_magic_acid_gag",
+				"name": "Acid Gag",
+				"file": "assets/sfx/acid_gag.ogg"
+			},
+			{
+				"id": "arendeth_acid_magic_acid_pool",
+				"name": "Acid Pool",
+				"file": "assets/sfx/acid_pool.ogg"
+			},
+			{
+				"id": "arendeth_acid_magic_alembic_ward",
+				"name": "Alembic Ward",
+				"file": "assets/sfx/alembic_ward.ogg"
+			},
+			{
+				"id": "arendeth_acid_magic_armor_melt",
+				"name": "Armor Melt",
+				"file": "assets/sfx/armor_melt.ogg"
+			},
+			{
+				"id": "arendeth_acid_magic_etch",
+				"name": "Etch",
+				"file": "assets/sfx/etch.ogg"
+			},
+			{
+				"id": "arendeth_acid_magic_fuming_aura",
+				"name": "Fuming Aura",
+				"file": "assets/sfx/fuming_aura.ogg"
+			},
+			{
+				"id": "arendeth_acid_magic_fuming_aura_trigger",
+				"name": "Fuming Aura Trigger",
+				"file": "assets/sfx/fuming_aura_trigger.ogg"
+			},
+			{
+				"id": "arendeth_acid_magic_hemolysis",
+				"name": "Hemolysis",
+				"file": "assets/sfx/hemolysis.ogg"
+			},
+			{
+				"id": "arendeth_acid_magic_neutralize",
+				"name": "Neutralize",
+				"file": "assets/sfx/neutralize.ogg"
+			},
+			{
+				"id": "arendeth_acid_magic_total_dissolution",
+				"name": "Total Dissolution",
+				"file": "assets/sfx/total_dissolution.ogg"
+			},
+			{
+				"id": "arendeth_acid_magic_vitriol_step",
+				"name": "Vitriol Step",
+				"file": "assets/sfx/vitriol_step.ogg"
+			},
+			{
+				"id": "arendeth_acid_magic_volatile_reaction",
+				"name": "Volatile Reaction",
+				"file": "assets/sfx/volatile_reaction.ogg"
+			}
+		]
 	}
 }

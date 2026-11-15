@@ -1,0 +1,9 @@
+{
+	"abilities": {
+		"arendeth_acid_magic_Thermotoxic_Spray": {
+			"turn_damage_to_stacks": {
+				"secondary_value": 1.0
+			}
+		}
+	}
+}

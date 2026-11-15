@@ -1,0 +1,105 @@
+{
+	"special": [
+		{
+			"algorithm": {
+				"id": "simple_spawn",
+				"parameters": {
+					"carvables": [
+						"1"
+					],
+					"road_index": "-1",
+					"size": 7,
+					"starting_z_level": 0,
+					"z_levels": 0
+				}
+			},
+			"biomes": [
+				"swamp"
+			],
+			"difficulty": 3,
+			"id": "arendeth_acid_magic_vitriol_mire",
+			"image": 317,
+			"name": "Vitriol Mire",
+			"scenarios": [
+				{
+					"building_maps": [
+						{
+							"count": [
+								9,
+								14
+							],
+							"ids": [
+								"Dead_Swamp_I",
+								"Dead_Swamp_II",
+								"Dead_Swamp_III",
+								"Dead_Swamp_IV",
+								"Dead_Swamp_IX",
+								"Dead_Swamp_V",
+								"Dead_Swamp_VI",
+								"Dead_Swamp_VII",
+								"Dead_Swamp_VIII",
+								"Dead_Swamp_X",
+								"Dead_Swamp_XI",
+								"Dead_Swamp_XII",
+								"Dead_Swamp_XIII",
+								"Dead_Swamp_XIV"
+							],
+							"mode": "one_of",
+							"placement": "carve"
+						}
+					],
+					"internal_name": "Vitriol Mire: an Erosion Magus harvesting acid from the larvae",
+					"rewards": [
+						{
+							"chance": 1.0,
+							"entity": "2421",
+							"objective": true,
+							"value": 10000
+						},
+						{
+							"chance": 0.33,
+							"entity": "2421",
+							"objective": true,
+							"value": 2000
+						}
+					],
+					"spawns": [
+						{
+							"amount": [
+								3,
+								6
+							],
+							"chance": 1.0,
+							"entities": [
+								"core_2_Acidara_Larva"
+							],
+							"placement": "random_spread"
+						},
+						{
+							"amount": [
+								2,
+								4
+							],
+							"chance": 0.75,
+							"entities": [
+								"2055"
+							],
+							"placement": "random_spread"
+						},
+						{
+							"amount": [
+								1,
+								1
+							],
+							"chance": 0.5,
+							"entities": [
+								"arendeth_acid_magic_Erosion_Magus"
+							]
+						}
+					],
+					"z_level": 0
+				}
+			]
+		}
+	]
+}
